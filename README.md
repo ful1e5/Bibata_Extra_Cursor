@@ -1,5 +1,7 @@
 
-<p align="center"><img href="https://github.com/KaizIqbal/Bibata_Extra_Cursor" title="Bibata Extra" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/dev/image/Bibata_extra.png"></p>
+<a href="https://github.com/KaizIqbal/Bibata_Extra_Cursor">
+<p align="center"><img title="Bibata Extra" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/dev/image/Bibata_extra.png"></p>
+</a>
 
 <p align="center">
 
@@ -19,7 +21,6 @@
 [![GitHub watchers](https://img.shields.io/github/watchers/KaizIqbal/Bibata_Extra_Cursor.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/KaizIqbal/Bibata_Extra_Cursor/watchers/)
 [![GitHub stars](https://img.shields.io/github/stars/KaizIqbal/Bibata_Extra_Cursor.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/KaizIqbal/v/stargazers/)
 [![GitHub followers](https://img.shields.io/github/followers/KaizIqbal.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/KaizIqbal?tab=followers)
-
 </p>
 
 
