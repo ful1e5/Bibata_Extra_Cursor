@@ -154,13 +154,13 @@ edited to
 
 ## Gallery
 
-<p align="center"><img title="Bibata Pink" src="">
+<p align="center"><img title="Bibata Pink" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/dev/image/Bibata_Pink.png">
 </br><sub>Bibata Pink</sub></p>
 
-<p align="center"><img title="Bibata Turquoise" src="">
+<p align="center"><img title="Bibata Turquoise" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/dev/image/Bibata_Turquoise.png">
 </br><sub>Bibata Turquoise</sub></p>
 
-<p align="center"><img title="Bibata Dodger-Blue" src="">
+<p align="center"><img title="Bibata Dodger-Blue" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/dev/image/Bibata_DodgerBlue.png">
 </br><sub>Bibata Dodger-Blue</sub></p>
 
 ## Bugs
