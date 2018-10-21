@@ -1,6 +1,6 @@
 
 <a href="https://github.com/KaizIqbal/Bibata_Extra_Cursor">
-<p align="center"><img title="Bibata Extra" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/dev/image/Bibata_extra.png"></p>
+<p align="center"><img title="Bibata Extra" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/master/image/Bibata_extra.png"></p>
 </a>
 
 <p align="center">
@@ -11,7 +11,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/KaizIqbal/Bibata_Extra_Cursor/graphs/commit-activity)
 ![PRs](https://img.shields.io/badge/PRs-Welcome-red.svg)
 [![Donate](https://img.shields.io/badge/Donate-yes-yellow.svg)](https://www.paypal.me/kaizkhatri)
-[![Code Of Conduct](https://img.shields.io/badge/COC-yes-pink.svg)](https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/dev/CODE_OF_CONDUCT.md)
+[![Code Of Conduct](https://img.shields.io/badge/COC-yes-pink.svg)](https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/master/CODE_OF_CONDUCT.md)
 </p>
 
 <p align="center">
@@ -77,7 +77,7 @@ Currently I'm making lots of Linux Themes to Improve [Linux](https://en.wikipedi
 
 |      Name      |     Description     |
 | :-----------:  | :------------------ |
-|     Bibata     | Bibata is **OpenSource** ,Compact and Material Designed Cursor set.This project develop for improve ```Linux``` Experience and Feel _openness_ in ```OpenSoftwareWorld```.|
+|     Bibata     | Bibata is **OpenSource** ,Compact and Material Designed Cursor set.This project masterelop for improve ```Linux``` Experience and Feel _openness_ in ```OpenSoftwareWorld```.|
 |   Bibata Pink   | Pink  Theme  |
 |   Bibata Turquoise  | Turquoise Theme  |
 |   Bibata DodgerBlue | Dodger-Blue Theme |
@@ -154,13 +154,13 @@ edited to
 
 ## Gallery
 
-<p align="center"><img title="Bibata Pink" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/dev/image/Bibata_Pink.png">
+<p align="center"><img title="Bibata Pink" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/master/image/Bibata_Pink.png">
 </br><sub>Bibata Pink</sub></p>
 
-<p align="center"><img title="Bibata Turquoise" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/dev/image/Bibata_Turquoise.png">
+<p align="center"><img title="Bibata Turquoise" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/master/image/Bibata_Turquoise.png">
 </br><sub>Bibata Turquoise</sub></p>
 
-<p align="center"><img title="Bibata Dodger-Blue" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/dev/image/Bibata_DodgerBlue.png">
+<p align="center"><img title="Bibata Dodger-Blue" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/master/image/Bibata_DodgerBlue.png">
 </br><sub>Bibata Dodger-Blue</sub></p>
 
 ## Bugs
@@ -178,7 +178,7 @@ You can create a issue, I will help you.
 
 ## Contributions and Suggestions
 
-Any suggestions for features and contributions to the continuing code development can be made via the issue tracker or code contributions via a ```Fork``` & ```Pull requests```.
+Any suggestions for features and contributions to the continuing code masterelopment can be made via the issue tracker or code contributions via a ```Fork``` & ```Pull requests```.
 
 OR
 
