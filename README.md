@@ -4,6 +4,7 @@
 </a>
 
 <p align="center">
+
 [![HitCount](http://hits.dwyl.io/KaizIqbal/Bibata_Extra_Cursor.svg)](http://hits.dwyl.io/KaizIqbal/Bibata_Extra_Cursor)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![GitHub contributors](https://img.shields.io/github/contributors/KaizIqbal/Bibata_Extra_Cursor.svg)](https://GitHub.com/KaizIqbal/Bibata_Extra_Cursor/graphs/contributors/)
@@ -14,6 +15,7 @@
 </p>
 
 <p align="center">
+
 ![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)
 ![Bash Shell](https://badges.frapsoft.com/bash/v1/bash.png?v=103)
 [![GitHub forks](https://img.shields.io/github/forks/KaizIqbal/Bibata_Extra_Cursor.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/KaizIqbal/Bibata_Extra_Cursor/network)
