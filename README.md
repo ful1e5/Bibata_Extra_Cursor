@@ -2,6 +2,7 @@
 <p align="center"><img href="https://github.com/KaizIqbal/Bibata_Extra_Cursor" title="Bibata Extra" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/dev/image/Bibata_extra.png"></p>
 
 <p align="center">
+
 [![HitCount](http://hits.dwyl.io/KaizIqbal/Bibata_Extra_Cursor.svg)](http://hits.dwyl.io/KaizIqbal/Bibata_Extra_Cursor)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![GitHub contributors](https://img.shields.io/github/contributors/KaizIqbal/Bibata_Extra_Cursor.svg)](https://GitHub.com/KaizIqbal/Bibata_Extra_Cursor/graphs/contributors/)
@@ -9,17 +10,17 @@
 ![PRs](https://img.shields.io/badge/PRs-Welcome-red.svg)
 [![Donate](https://img.shields.io/badge/Donate-yes-yellow.svg)](https://www.paypal.me/kaizkhatri)
 [![Code Of Conduct](https://img.shields.io/badge/COC-yes-pink.svg)](https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/dev/CODE_OF_CONDUCT.md)
+</p>
 
+<p align="center">
 ![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)
 ![Bash Shell](https://badges.frapsoft.com/bash/v1/bash.png?v=103)
-
 [![GitHub forks](https://img.shields.io/github/forks/KaizIqbal/Bibata_Extra_Cursor.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/KaizIqbal/Bibata_Extra_Cursor/network)
 [![GitHub watchers](https://img.shields.io/github/watchers/KaizIqbal/Bibata_Extra_Cursor.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/KaizIqbal/Bibata_Extra_Cursor/watchers/)
 [![GitHub stars](https://img.shields.io/github/stars/KaizIqbal/Bibata_Extra_Cursor.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/KaizIqbal/v/stargazers/)
 [![GitHub followers](https://img.shields.io/github/followers/KaizIqbal.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/KaizIqbal?tab=followers)
 
 </p>
-
 
 
 ## How to get Project Message and Updates
