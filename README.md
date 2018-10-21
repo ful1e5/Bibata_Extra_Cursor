@@ -2,7 +2,7 @@
 <p align="center"><img href="https://github.com/KaizIqbal/Bibata_Extra_Cursor" title="Bibata Extra" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/dev/image/Bibata_extra.png"></p>
 
 <p align="center">
-[![HitCount](http://hits.dwyl.io/KaizIqbal/Bibata_Extra_Cursor.svg)](http://hits.dwyl.io/KaizIqbal/Bibata_Cursor)
+[![HitCount](http://hits.dwyl.io/KaizIqbal/Bibata_Extra_Cursor.svg)](http://hits.dwyl.io/KaizIqbal/Bibata_Extra_Cursor)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![GitHub contributors](https://img.shields.io/github/contributors/KaizIqbal/Bibata_Extra_Cursor.svg)](https://GitHub.com/KaizIqbal/Bibata_Extra_Cursor/graphs/contributors/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/KaizIqbal/Bibata_Extra_Cursor/graphs/commit-activity)
