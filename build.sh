@@ -17,6 +17,11 @@ RAWSVGS_Bibata_Dodger_Blue="src/Bibata_Dodger_Blue/svgs"
 CURSOR_Bibata_Dodger_Blue="src/Bibata_Dodger_Blue/cursor.theme"
 INDEX_Bibata_Dodger_Blue="src/Bibata_Dodger_Blue/index.theme"
 
+# Bibata DarkRed
+RAWSVGS_Bibata_Dark_Red="src/Bibata_Dark_Red/svgs"
+CURSOR_Bibata_Dark_Red="src/Bibata_Dark_Red/cursor.theme"
+INDEX_Bibata_Dark_Red="src/Bibata_Dark_Red/index.theme"
+
 ALIASES="src/cursorList"
 
 
@@ -72,6 +77,18 @@ DIR3X_Bibata_Dodger_Blue="build/Bibata_Dodger_Blue/32x32"
 DIR2X_Bibata_Dodger_Blue="build/Bibata_Dodger_Blue/28x28"
 DIR1X_Bibata_Dodger_Blue="build/Bibata_Dodger_Blue/24x24"
 
+DIR11X_Bibata_Dark_Red="build/Bibata_Dark_Red/96x96"
+DIR10X_Bibata_Dark_Red="build/Bibata_Dark_Red/88x88"
+DIR9X_Bibata_Dark_Red="build/Bibata_Dark_Red/80x80"
+DIR8X_Bibata_Dark_Red="build/Bibata_Dark_Red/72x72"
+DIR7X_Bibata_Dark_Red="build/Bibata_Dark_Red/64x64"
+DIR6X_Bibata_Dark_Red="build/Bibata_Dark_Red/56x56"
+DIR5X_Bibata_Dark_Red="build/Bibata_Dark_Red/48x48"
+DIR4X_Bibata_Dark_Red="build/Bibata_Dark_Red/40x40"
+DIR3X_Bibata_Dark_Red="build/Bibata_Dark_Red/32x32"
+DIR2X_Bibata_Dark_Red="build/Bibata_Dark_Red/28x28"
+DIR1X_Bibata_Dark_Red="build/Bibata_Dark_Red/24x24"
+
 
 OUTPUT_Bibata_Pink="$(grep --only-matching --perl-regex "(?<=Name\=).*$" $CURSOR_Bibata_Pink)"
 OUTPUT_Bibata_Pink=${OUTPUT_Bibata_Pink// /_}
@@ -82,6 +99,8 @@ OUTPUT_Bibata_Turquoise=${OUTPUT_Bibata_Turquoise// /_}
 OUTPUT_Bibata_Dodger_Blue="$(grep --only-matching --perl-regex "(?<=Name\=).*$" $CURSOR_Bibata_Dodger_Blue)"
 OUTPUT_Bibata_Dodger_Blue=${OUTPUT_Bibata_Dodger_Blue// /_}
 
+OUTPUT_Bibata_Dark_Red="$(grep --only-matching --perl-regex "(?<=Name\=).*$" $CURSOR_Bibata_Dark_Red)"
+OUTPUT_Bibata_Dark_Red=${OUTPUT_Bibata_Dark_Red// /_}
 
 mkdir -p "$DIR11X_Bibata_Pink" "$DIR10X_Bibata_Pink" "$DIR9X_Bibata_Pink" "$DIR8X_Bibata_Pink" "$DIR7X_Bibata_Pink" "$DIR6X_Bibata_Pink" "$DIR5X_Bibata_Pink" "$DIR4X_Bibata_Pink" "$DIR3X_Bibata_Pink" "$DIR2X_Bibata_Pink" "$DIR1X_Bibata_Pink"
 
@@ -89,11 +108,13 @@ mkdir -p "$DIR11X_Bibata_Turquoise" "$DIR10X_Bibata_Turquoise" "$DIR9X_Bibata_Tu
 
 mkdir -p "$DIR11X_Bibata_Dodger_Blue" "$DIR10X_Bibata_Dodger_Blue" "$DIR9X_Bibata_Dodger_Blue" "$DIR8X_Bibata_Dodger_Blue" "$DIR7X_Bibata_Dodger_Blue" "$DIR6X_Bibata_Dodger_Blue" "$DIR5X_Bibata_Dodger_Blue" "$DIR4X_Bibata_Dodger_Blue" "$DIR3X_Bibata_Dodger_Blue" "$DIR2X_Bibata_Dodger_Blue" "$DIR1X_Bibata_Dodger_Blue"
 
+mkdir -p "$DIR11X_Bibata_Dark_Red" "$DIR10X_Bibata_Dark_Red" "$DIR9X_Bibata_Dark_Red" "$DIR8X_Bibata_Dark_Red" "$DIR7X_Bibata_Dark_Red" "$DIR6X_Bibata_Dark_Red" "$DIR5X_Bibata_Dark_Red" "$DIR4X_Bibata_Dark_Red" "$DIR3X_Bibata_Dark_Red" "$DIR2X_Bibata_Dark_Red" "$DIR1X_Bibata_Dark_Red"
 
 
 mkdir -p "$OUTPUT_Bibata_Pink/cursors"
 mkdir -p "$OUTPUT_Bibata_Turquoise/cursors"
 mkdir -p "$OUTPUT_Bibata_Dodger_Blue/cursors"
+mkdir -p "$OUTPUT_Bibata_Dark_Red/cursors"
 
 echo 'Making Folders... DONE';
 
@@ -306,6 +327,79 @@ done
     echo -e "\033[0KGenerating Animated Cursor Bibata DodgerBlue... DONE \\r"
 
     sleep 1s
+
+# Bibata Dark_Red Cursor 
+
+for CUR in src/config/*.cursor; do
+    BASENAME=$CUR
+    BASENAME=${BASENAME##*/}
+    BASENAME=${BASENAME%.*}
+
+    echo -ne "\033[0KGenerating simple cursor pixmaps OF Bibata DarkRed.. $BASENAME\\r"
+
+    inkscape -w 24 -h 24 --without-gui -f $RAWSVGS_Bibata_Dark_Red/"$BASENAME".svg -e "$DIR1X_Bibata_Dark_Red/$BASENAME.png" > /dev/null
+    inkscape -w 28 -h 28 --without-gui -f $RAWSVGS_Bibata_Dark_Red/"$BASENAME".svg -e "$DIR2X_Bibata_Dark_Red/$BASENAME.png" > /dev/null
+    inkscape -w 32 -h 32 --without-gui -f $RAWSVGS_Bibata_Dark_Red/"$BASENAME".svg -e "$DIR3X_Bibata_Dark_Red/$BASENAME.png" > /dev/null
+    inkscape -w 40 -h 40 --without-gui -f $RAWSVGS_Bibata_Dark_Red/"$BASENAME".svg -e "$DIR4X_Bibata_Dark_Red/$BASENAME.png" > /dev/null
+    inkscape -w 48 -h 48 --without-gui -f $RAWSVGS_Bibata_Dark_Red/"$BASENAME".svg -e "$DIR5X_Bibata_Dark_Red/$BASENAME.png" > /dev/null
+    inkscape -w 56 -h 56 --without-gui -f $RAWSVGS_Bibata_Dark_Red/"$BASENAME".svg -e "$DIR6X_Bibata_Dark_Red/$BASENAME.png" > /dev/null
+    inkscape -w 64 -h 64 --without-gui -f $RAWSVGS_Bibata_Dark_Red/"$BASENAME".svg -e "$DIR7X_Bibata_Dark_Red/$BASENAME.png" > /dev/null
+    inkscape -w 72 -h 72 --without-gui -f $RAWSVGS_Bibata_Dark_Red/"$BASENAME".svg -e "$DIR8X_Bibata_Dark_Red/$BASENAME.png" > /dev/null
+    inkscape -w 80 -h 80 --without-gui -f $RAWSVGS_Bibata_Dark_Red/"$BASENAME".svg -e "$DIR9X_Bibata_Dark_Red/$BASENAME.png" > /dev/null
+    inkscape -w 88 -h 88 --without-gui -f $RAWSVGS_Bibata_Dark_Red/"$BASENAME".svg -e "$DIR10X_Bibata_Dark_Red/$BASENAME.png" > /dev/null
+    inkscape -w 96 -h 96 --without-gui -f $RAWSVGS_Bibata_Dark_Red/"$BASENAME".svg -e "$DIR11X_Bibata_Dark_Red/$BASENAME.png" > /dev/null
+
+done
+    echo -e "\033[0KGenerating simple cursor pixmaps OF Bibata DarkRed... DONE"
+
+    sleep 1s
+
+    echo -ne "\033[0KGenerating Animated Cursor Bibata DarkRed... \\r"
+for i in 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45
+do
+    echo -ne "\033[0KGenerating animated cursor pixmaps For Bibata DarkRed Process... $i / 45 \\r"
+
+    inkscape -w 24 -h 24 --without-gui -f $RAWSVGS_Bibata_Dark_Red/progress-$i.svg -e "$DIR1X_Bibata_Dark_Red/progress-$i.png" > /dev/null
+    inkscape -w 28 -h 28 --without-gui -f $RAWSVGS_Bibata_Dark_Red/progress-$i.svg -e "$DIR2X_Bibata_Dark_Red/progress-$i.png" > /dev/null
+    inkscape -w 32 -h 32 --without-gui -f $RAWSVGS_Bibata_Dark_Red/progress-$i.svg -e "$DIR3X_Bibata_Dark_Red/progress-$i.png" > /dev/null
+    inkscape -w 40 -h 40 --without-gui -f $RAWSVGS_Bibata_Dark_Red/progress-$i.svg -e "$DIR4X_Bibata_Dark_Red/progress-$i.png" > /dev/null
+    inkscape -w 48 -h 48 --without-gui -f $RAWSVGS_Bibata_Dark_Red/progress-$i.svg -e "$DIR5X_Bibata_Dark_Red/progress-$i.png" > /dev/null
+    inkscape -w 56 -h 56 --without-gui -f $RAWSVGS_Bibata_Dark_Red/progress-$i.svg -e "$DIR6X_Bibata_Dark_Red/progress-$i.png" > /dev/null
+    inkscape -w 64 -h 64 --without-gui -f $RAWSVGS_Bibata_Dark_Red/progress-$i.svg -e "$DIR7X_Bibata_Dark_Red/progress-$i.png" > /dev/null
+    inkscape -w 72 -h 72 --without-gui -f $RAWSVGS_Bibata_Dark_Red/progress-$i.svg -e "$DIR8X_Bibata_Dark_Red/progress-$i.png" > /dev/null
+    inkscape -w 80 -h 80 --without-gui -f $RAWSVGS_Bibata_Dark_Red/progress-$i.svg -e "$DIR9X_Bibata_Dark_Red/progress-$i.png" > /dev/null
+    inkscape -w 88 -h 88 --without-gui -f $RAWSVGS_Bibata_Dark_Red/progress-$i.svg -e "$DIR10X_Bibata_Dark_Red/progress-$i.png" > /dev/null
+    inkscape -w 96 -h 96 --without-gui -f $RAWSVGS_Bibata_Dark_Red/progress-$i.svg -e "$DIR11X_Bibata_Dark_Red/progress-$i.png" > /dev/null
+
+done
+    echo -e "\033[0KGenerating animated cursor pixmaps For Bibata DarkRed Process... DONE"
+
+    sleep 5s
+
+for i in 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45
+do
+    echo -ne "\033[0KGenerating animated cursor pixmaps For Bibata DarkRed Wait... $i / 45 \\r"
+
+    inkscape -w 24 -h 24 --without-gui -f $RAWSVGS_Bibata_Dark_Red/wait-$i.svg -e "$DIR1X_Bibata_Dark_Red/wait-$i.png" > /dev/null
+    inkscape -w 28 -h 28 --without-gui -f $RAWSVGS_Bibata_Dark_Red/wait-$i.svg -e "$DIR2X_Bibata_Dark_Red/wait-$i.png" > /dev/null
+    inkscape -w 32 -h 32 --without-gui -f $RAWSVGS_Bibata_Dark_Red/wait-$i.svg -e "$DIR3X_Bibata_Dark_Red/wait-$i.png" > /dev/null
+    inkscape -w 40 -h 40 --without-gui -f $RAWSVGS_Bibata_Dark_Red/wait-$i.svg -e "$DIR4X_Bibata_Dark_Red/wait-$i.png" > /dev/null
+    inkscape -w 48 -h 48 --without-gui -f $RAWSVGS_Bibata_Dark_Red/wait-$i.svg -e "$DIR5X_Bibata_Dark_Red/wait-$i.png" > /dev/null
+    inkscape -w 56 -h 56 --without-gui -f $RAWSVGS_Bibata_Dark_Red/wait-$i.svg -e "$DIR6X_Bibata_Dark_Red/wait-$i.png" > /dev/null
+    inkscape -w 64 -h 64 --without-gui -f $RAWSVGS_Bibata_Dark_Red/wait-$i.svg -e "$DIR7X_Bibata_Dark_Red/wait-$i.png" > /dev/null
+    inkscape -w 72 -h 72 --without-gui -f $RAWSVGS_Bibata_Dark_Red/wait-$i.svg -e "$DIR8X_Bibata_Dark_Red/wait-$i.png" > /dev/null
+    inkscape -w 80 -h 80 --without-gui -f $RAWSVGS_Bibata_Dark_Red/wait-$i.svg -e "$DIR9X_Bibata_Dark_Red/wait-$i.png" > /dev/null
+    inkscape -w 88 -h 88 --without-gui -f $RAWSVGS_Bibata_Dark_Red/wait-$i.svg -e "$DIR10X_Bibata_Dark_Red/wait-$i.png" > /dev/null
+    inkscape -w 96 -h 96 --without-gui -f $RAWSVGS_Bibata_Dark_Red/wait-$i.svg -e "$DIR11X_Bibata_Dark_Red/wait-$i.png" > /dev/null
+
+done
+    echo -e "\033[0KGenerating animated cursor pixmaps For Bibata DarkRed Wait... DONE"
+    echo -ne "\033[0KGenerating Animated Cursor Bibata DarkRed... DONE \\r"
+
+   
+    sleep 2s
+
+
 echo -ne "Generating cursor theme...\\r"
 for CUR in src/config/*.cursor; do
     BASENAME=$CUR
@@ -346,6 +440,19 @@ for CUR in src/config/*.cursor; do
 
 done
 
+for CUR in src/config/*.cursor; do
+    BASENAME=$CUR
+    BASENAME=${BASENAME##*/}
+    BASENAME=${BASENAME%.*}
+
+    ERR="$( xcursorgen -p build/Bibata_Dark_Red "$CUR" "$OUTPUT_Bibata_Dark_Red/cursors/$BASENAME" 2>&1 )"
+
+    if [[ "$?" -ne "0" ]]; then
+        echo "FAIL: $CUR $ERR"
+    fi
+
+done
+
 
 echo -e "Generating cursor theme... DONE"
 
@@ -371,6 +478,12 @@ while read -r ALIAS ; do
     fi
     ln -s "$TO" "$OUTPUT_Bibata_Dodger_Blue/cursors/$FROM"
 
+    if [ -e "$OUTPUT_Bibata_Dark_Red/cursors/$FROM" ] ; then
+        continue
+    fi
+    ln -s "$TO" "$OUTPUT_Bibata_Dark_Red/cursors/$FROM"
+
+
 done < $ALIASES
 echo -e "\033[0KGenerating shortcuts... DONE"
 
@@ -390,6 +503,11 @@ echo -ne "Copying Theme Index...\\r"
     if ! [ -e "$OUTPUT_Bibata_Dodger_Blue/$CURSOR_Bibata_Dodger_Blue" ] ; then
         cp $CURSOR_Bibata_Dodger_Blue "$OUTPUT_Bibata_Dodger_Blue/cursor.theme"
         cp $INDEX_Bibata_Dodger_Blue "$OUTPUT_Bibata_Dodger_Blue/index.theme"
+    fi
+
+    if ! [ -e "$OUTPUT_Bibata_Dark_Red/$CURSOR_Bibata_Dark_Red" ] ; then
+        cp $CURSOR_Bibata_Dark_Red "$OUTPUT_Bibata_Dark_Red/cursor.theme"
+        cp $INDEX_Bibata_Dark_Red "$OUTPUT_Bibata_Dark_Red/index.theme"
     fi
     
 echo -e "\033[0KCopying Theme Index... DONE"
