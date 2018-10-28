@@ -81,7 +81,7 @@ Currently I'm making lots of Linux Themes to Improve [Linux](https://en.wikipedi
 |   Bibata Pink   | Pink  Theme  |
 |   Bibata Turquoise  | Turquoise Theme  |
 |   Bibata DodgerBlue | Dodger-Blue Theme |
-
+|   Bibata DarkRed | Brownies Theme |
 
 ## Dependencies
 
@@ -162,6 +162,10 @@ edited to
 
 <p align="center"><img title="Bibata Dodger-Blue" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/master/image/Bibata_DodgerBlue.png">
 </br><sub>Bibata Dodger-Blue</sub></p>
+
+<p align="center"><img title="Bibata Dodger-Blue" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/master/image/Bibata_DarkRed.png">
+</br><sub>Bibata Dark-Red</sub></p>
+
 
 ## Bugs
 
