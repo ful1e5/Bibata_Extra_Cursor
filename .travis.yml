@@ -8,4 +8,4 @@ sudo: required
 services:
   - docker
 before_install:
-  - docker build --rm -f "Dockerfile" -t bibata_cursor:latest .
+  - docker build --rm -f "Dockerfile" -t bibata_extra_cursor:latest .
