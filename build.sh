@@ -248,32 +248,32 @@ else
     fi
 fi
 
-# TODO
-# # choice for build cursor
-# selection "Cursor to build (Default is 'ALL')?"
-# cursors=("Bibata_Classic" "Bibata_Oil" "Bibata_Ice" "Bibata_Amber" "ALL"  exit )
-# cursor=$(selectWithDefault "${cursors[@]}")
+TODO
+# choice for build cursor
+selection "Cursor to build (Default is 'ALL')?"
+cursors=("Bibata_Dark_Red" "Bibata_Dodger_Blue" "Bibata_Pink" "Bibata_Turquoise" "ALL"  exit )
+cursor=$(selectWithDefault "${cursors[@]}")
 
-# # Process the selected item.
-# case $cursor in
-#   (''|'ALL') 
-#     # echo "ALL"; ;;
-#     build "Bibata_Classic";
-#     build "Bibata_Oil";
-#     build "Bibata_Ice";
-#     build "Bibata_Amber" ; 
-#     installer ; ;;
-#   ('Bibata_Classic') 
-#     build "$cursor"; 
-#     installer ; ;;
-#   ('Bibata_Oil') 
-#     build "$cursor"; 
-#     installer ; ;;
-#   ('Bibata_Ice') 
-#     build "$cursor"; 
-#     installer ; ;;
-#   ('Bibata_Amber')
-#     build "$cursor"; 
-#     installer ; ;;
-# esac
+# Process the selected item.
+case $cursor in
+  (''|'ALL') 
+    # echo "ALL"; ;;
+    build "Bibata_Dark_Red";
+    build "Bibata_Dodger_Blue";
+    build "Bibata_Pink";
+    build "Bibata_Turquoise" ; 
+    installer ; ;;
+  ('Bibata_Dark_Red') 
+    build "$cursor"; 
+    installer ; ;;
+  ('Bibata_Dodger_Blue') 
+    build "$cursor"; 
+    installer ; ;;
+  ('Bibata_Pink') 
+    build "$cursor"; 
+    installer ; ;;
+  ('Bibata_Turquoise')
+    build "$cursor"; 
+    installer ; ;;
+esac
 
