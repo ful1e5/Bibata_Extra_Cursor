@@ -1,0 +1,11 @@
+branches:
+  only:
+    - master
+    - devlopment
+    - test
+language: minimal
+sudo: required
+services:
+  - docker
+before_install:
+  - docker build --rm -f "Dockerfile" -t bibata_cursor:latest .
