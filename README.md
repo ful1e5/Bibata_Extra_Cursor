@@ -1,200 +1,247 @@
+<h1 align="center">
+  <img src="./image/Bibata_Extra.png" width="150">
+  <br>
+  <img src="./image/Bibata_name.png" width="150">
+</h1>
 
-<a href="https://github.com/KaizIqbal/Bibata_Extra_Cursor">
-<p align="center"><img title="Bibata Extra" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/master/image/Bibata_extra.png"></p>
+<h4 align="center">🚀 More Bibata 🌈</h4>
+
+<p align="center">
+<img alt="Downloads" src="https://img.shields.io/github/downloads/KaizIqbal/Bibata_Extra_Cursor/total">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/KaizIqbal/Bibata_Extra_Cursor">
+<!-- <a href="#">
+  <img alt="Chat" src="https://img.shields.io/badge/chat-on discord-purple">
+</a> -->
+<img alt="GitHub" src="https://img.shields.io/github/license/KaizIqbal/Bibata_Extra_Cursor">
+<br>
+<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/KaizIqbal/Bibata_Extra_Cursor">
+<img alt="GitHub issues" src="https://img.shields.io/github/issues/KaizIqbal/Bibata_Extra_Cursor">
+<img alt="Issues & PR" src="https://img.shields.io/badge/Issues & PR-welcome-green">
+<br>
+<img alt="Travis CI" src="https://travis-ci.org/KaizIqbal/Bibata_Extra_Cursor.svg?branch=devlopment">
+<a href="https://github.com/KaizIqbal/Bibata_Extra_Cursor/releases" target="_blank">
+  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/KaizIqbal/Bibata_Extra_Cursor">
 </a>
-
-<p align="center">
-
-[![HitCount](http://hits.dwyl.io/KaizIqbal/Bibata_Extra_Cursor.svg)](http://hits.dwyl.io/KaizIqbal/Bibata_Extra_Cursor)
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![GitHub contributors](https://img.shields.io/github/contributors/KaizIqbal/Bibata_Extra_Cursor.svg)](https://GitHub.com/KaizIqbal/Bibata_Extra_Cursor/graphs/contributors/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/KaizIqbal/Bibata_Extra_Cursor/graphs/commit-activity)
-![PRs](https://img.shields.io/badge/PRs-Welcome-red.svg)
-[![Donate](https://img.shields.io/badge/Donate-yes-yellow.svg)](https://www.paypal.me/kaizkhatri)
-[![Code Of Conduct](https://img.shields.io/badge/COC-yes-pink.svg)](https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/master/CODE_OF_CONDUCT.md)
+<a href="https://www.paypal.me/KaizKhatri" target="_blank">
+  <img alt="Donate" src="https://img.shields.io/badge/$-donate-red">
+</a>
+<br>
+<a href="https://twitter.com/ful1e5_" target="_blank">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/ful1e5_?label=twitter&style=social">
+</a>
+<a href="https://github.com/KaizIqbal" target="_blank">
+  <img alt="GitHub followers" src="https://img.shields.io/github/followers/KaizIqbal?label=Github&style=social">
+</a>
+<a href="https://mastodon.social/web/accounts/580173" target="_blank">
+  <img alt="Mastodon Follow" src="https://img.shields.io/mastodon/follow/580173?domain=https%3A%2F%2Fmastodon.social&label=Mastodon&style=social">
+</a>
 </p>
 
 <p align="center">
-
-![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)
-![Bash Shell](https://badges.frapsoft.com/bash/v1/bash.png?v=103)
-[![GitHub forks](https://img.shields.io/github/forks/KaizIqbal/Bibata_Extra_Cursor.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/KaizIqbal/Bibata_Extra_Cursor/network)
-[![GitHub watchers](https://img.shields.io/github/watchers/KaizIqbal/Bibata_Extra_Cursor.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/KaizIqbal/Bibata_Extra_Cursor/watchers/)
-[![GitHub stars](https://img.shields.io/github/stars/KaizIqbal/Bibata_Extra_Cursor.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/KaizIqbal/v/stargazers/)
-[![GitHub followers](https://img.shields.io/github/followers/KaizIqbal.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/KaizIqbal?tab=followers)
+  <a href="#bibata-?">Bibata</a> •
+  <a href="#install">Install</a> •
+  <a href="#windows">Windows</a> •
+  <a href="#preview">Preview</a> •
+  <a href="#credit">Credit</a> •
+  <a href="#support">Support</a> •
+  <a href="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/master/LICENSE">License</a>
 </p>
 
+## Bibata ?
 
-## How to get Project Message and Updates
-
-I'll release messages on
- * [Google+](https://plus.google.com/+KaizKhatri)
- * [Twitter](https://twitter.com/ful1e5_)
-
-
-
-## Table Of Contents
-<!--ts-->
-   * [How to get Project Message and Updates](#how-to-get-project-message-and-updates)
-   * [Table Of Contents](#table-of-contents)
-   * [Donate](#donate)
-      * [One-time donation](#one-time-donation)
-   * [What is Bibata](#what-is-bibata)
-   * [Dependencies](#dependencies)
-      * [Build dependencies](#build-dependencies)
-   * [Installation](#installation)
-      * [Build From Source Code](#build-from-source-code)
-      * [Package](#package)
-   * [Quick Fixes](#quick-fixes)
-      * [Inherits Problem](#inherits-problem)
-   * [Work in Progress](#work-in-progress)
-   * [Gallery](#gallery)
-   * [Bugs](#bugs)
-   * [License & Terms](#license-and-terms)
-   * [Getting help](#getting-help)
-   * [Contributions & Suggestions](#contributions-and-suggestions)
-<!--te-->
-
-## Donate
-
-**Who Am I?**
-
-I'm a _ComputerScienceStudent_, _GraphicsDesigner_ and _OpenSourceEnthusiast_. I mostly do  _ComputerGraphics_ stuffs and love them 💕
-
-Currently I'm making lots of Linux Themes to Improve [Linux](https://en.wikipedia.org/wiki/Linux) Experience, if you enjoy my works please consider making a donation. My ultimate goal is to become a full-time open-source ninja.
-
-### One-time donation
-
-<p align="center">
-<a  href="https://www.paypal.me/kaizkhatri"><img title="Become Kaiz's Paypal" width=47% src="https://www.paypalobjects.com/webstatic/mobile/hob/web/pp_here_flat.png"></a>
-</br>
-<sub>My PayPal Email : kaizmandhu at google's mail</sub>
-</p>
-
-
-
-## What is Bibata
-
-|      Name      |     Description     |
-| :-----------:  | :------------------ |
-|     Bibata     | Bibata is **OpenSource** ,Compact and Material Designed Cursor set.This project masterelop for improve ```Linux``` Experience and Feel _openness_ in ```OpenSoftwareWorld```.|
-|   Bibata Pink   | Pink  Theme  |
-|   Bibata Turquoise  | Turquoise Theme  |
-|   Bibata DodgerBlue | Dodger-Blue Theme |
-|   Bibata DarkRed | Brownies Theme |
-
-## Dependencies
+Bibata is **OpenSource** ,Compact and Material Designed Cursor set.This project masterelop for improve `Cursor` Experience.
 
 ### Build dependencies
 
-* [Xcursorgen](https://github.com/freedesktop/xcursorgen)
-* [Inkscape](https://gitlab.com/inkscape/inkscape)
-* [gnome-themes-standard](https://launchpad.net/ubuntu/+source/gnome-themes-standard)
+- [git](https://git-scm.com/)
+- [python3](https://www.python.org/)
+- [pip](https://pypi.org/project/pip/)/[python-pillow](https://www.archlinux.org/packages/community/x86_64/python-pillow/)
+- [Inkscape](https://inkscape.org/)
+- [Xcursorgen](https://www.x.org/releases/X11R7.7/doc/man/man1/xcursorgen.1.xhtml)
 
-## Installation
+### Install dependencies
 
-**Note :** Latest ```Stable``` & ```BETA``` releases can be downloaded from [Here](https://github.com/KaizIqbal/Bibata_Extra_Cursor/releases)
+**📝Note**: Snap/Flatpak packages raise issue in build(e.g. inkscape).
 
-### Build From Source Code
+##### Debain/Ubuntu
 
-1. Make sure you have installed all [Dependencies](#dependencies).
+```
+sudo apt install git python3 python3-pip inkscape x11-apps
+```
 
-2. **Build & Install**:
-    ```bash
-    $git clone https://github.com/KaizIqbal/Bibata_Extra_Cursor.git
-    $cd Bibata_Extra_Cursor/
-    $chmod +x build.sh
-    $./build.sh
-    $chmod +x ./Installer_Bibata.sh
-    ```
-    Install (As ROOT User)
-    ```bash
-    $sudo ./Installer_Bibata.sh
-    ```
-    Install (As Local User)
-    ```
-    $./Installer_Bibata.sh
-    ```
-3. **Uninstall**:
+##### Fedora
 
-     Using ```Script``` :
+```
+sudo dnf install git python37 python3-pip inkscape xcursorgen
+```
 
-      ```bash
-      #From ROOT
-      $sudo ./Installer_Bibata.sh
-      #From Local User
-      $./Installer_Bibata.sh
-      ```
+##### ArchLinux
 
-     Without ```Script``` :
-     ```bash
-     #From ROOT
-     $sudo rm -r /usr/share/icons/Bibata_*
-     #from Local User
-     $rm -r ~/.icons/Bibata_*
-     #Note : Your replace * with flavor Name to remove individual
-     ```
+```
+# Packages
+sudo pacman -S git python inkscape xorg-xcursorgen
 
-## Quick Fixes
-##### *Inherits* Problem
-issue [#8](https://github.com/KaizIqbal/Bibata_Cursor/issues/8)
+# AUR package with yaourt
+yaourt -S python-pillow
 
-edit ```/usr/share/icons/default/index.theme``` and replace your cursor.
+```
 
-     [Icon Theme]
-     Inherits=Adwaita
+##### Manjaro
 
-edited to
+**📝Note**: enable AUR in ManjaroLinux for [python-pillow](https://www.archlinux.org/packages/community/x86_64/python-pillow/)
 
-     [Icon Theme]
-     Inherits=Bibata_Pink                     #replace here
+```
+pamac install git python python-pillow inkscape xorg-xcursorgen
+```
 
-## Work in progress
-[Bibata Project](https://github.com/KaizIqbal/Bibata_Cursor#work-in-progress)
+Install `python-pip` package in case python-pillow cause error or not installed on your arch based distro.
 
-## Gallery
+```
+# Archlinux
+sudo pacman -S python-pip
 
-<p align="center"><img title="Bibata Pink" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/master/image/Bibata_Pink.png">
+# Manjaro
+pamac python-pip
+```
+
+## Install
+
+### Basic Installation
+
+Bibata cursor is installed by running one of the following commands in your terminal. You can install this via the command-line with either `curl` or `wget`.
+
+##### via curl
+
+```shell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/KaizIqbal/Bibata_Extra_Cursor/devlopment/Bibata.sh)"
+```
+
+##### via wget
+
+```shell
+sh -c "$(wget -O- https://raw.githubusercontent.com/KaizIqbal/Bibata_Extra_Cursor/devlopment/Bibata.sh)"
+```
+
+Latest `Stable` & `Development` releases can be downloaded from [Here](https://github.com/KaizIqbal/Bibata_Extra_Cursor/releases)
+
+<!--
+From https://github.com/Silicasandwhich/Bibata_Extra_Cursor_Translucent#windows -->
+
+#### Windows
+
+1. Get the lastest stable/dev-version Windows release from the [releases tab](https://github.com/KaizIqbal/Bibata_Extra_Cursor/releases) on the github page.
+
+2. Open the settings app
+
+3. Go to Devices -> Mouse -> Additional Mouse Options
+
+4. Go to the pointers tab
+
+5. Replace each cursor in the currently applied cursor set with the corresponding cursor in the Windows folder of your desired flavor
+
+6. Click "save as" and type in the desired name
+
+7. Click "apply" and "ok"
+
+### Manual Installation
+
+1. Make sure you have installed all [Build dependencies](#build-dependencies).
+
+2. Build & Install:
+   ```shell
+   git clone https://github.com/KaizIqbal/Bibata_Extra_Cursor.git
+   cd Bibata_Extra_Cursor/
+   chmod +x build.sh
+   ./build.sh
+   chmod +x ./install.sh
+   ```
+   Install (available for all users)
+   ```shell
+   sudo ./install.sh
+   ```
+   Install (available only for local eser)
+   ```
+   ./install.sh
+   ```
+3. Uninstall:
+
+   Using `Script` :
+
+   ```shell
+   #From All Users
+   sudo ./install.sh
+   #From Local User
+   ./install.sh
+   ```
+
+   Without `Script` :
+
+   ```shell
+   #From All Users
+   $sudo rm -r /usr/share/icons/Bibata_*
+   #from Local User
+   $rm -r ~/.icons/Bibata_*
+   #Note : Your replace * with flavor Name to remove individual
+   ```
+
+More information about script is found in [src](./src/README.md) directory.
+
+## Preview
+
+<p align="center"><img title="Bibata DarkRed" src="./image/Bibata_DarkRed.png">
+</br><sub>Bibata DarkRed</sub></p>
+
+<p align="center"><img title="Bibata DodgerBlue" src="./image/Bibata_DodgerBlue.png">
+</br><sub>Bibata DodgerBlue</sub></p>
+
+<p align="center"><img title="Bibata Pink" src="./image/Bibata_Pink.png">
 </br><sub>Bibata Pink</sub></p>
 
-<p align="center"><img title="Bibata Turquoise" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/master/image/Bibata_Turquoise.png">
+<p align="center"><img title="Bibata Turquoise " src="./image/Bibata_Turquoise.png">
 </br><sub>Bibata Turquoise</sub></p>
 
-<p align="center"><img title="Bibata Dodger-Blue" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/master/image/Bibata_DodgerBlue.png">
-</br><sub>Bibata Dodger-Blue</sub></p>
+## You may also like...
 
-<p align="center"><img title="Bibata Dodger-Blue" src="https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/master/image/Bibata_DarkRed.png">
-</br><sub>Bibata Dark-Red</sub></p>
-
+- [**Bibata**](https://github.com/KaizIqbal/Bibata_Cursor) - 🚀 Material Based Cursor 🏳️‍🌈
+- [**Bibata Adapta**](https://gitlab.com/cscs/Bibata_AdaptaBreath_Cursors) - Bibata Based Cursor Made for AdaptaBreath and Manjaro.
+- [**Bibata Translucent**](https://github.com/Silicasandwhich/Bibata_Extra_Cursor_Translucent) - Bibata translucent is a translucent flavor of the Bibata.
 
 ## Bugs
 
 Bugs should be reported [here](https://github.com/KaizIqbal/Bibata_Extra_Cursor/issues) on the Github issues page.
 
-
-## License and Terms
-
-```Bibata Cursor SET``` Collection is available under the terms of the GPL-3.0 license See [`LICENSE`](https://github.com/KaizIqbal/Bibata_Extra_Cursor/blob/master/LICENSE) for details.
-
 ## Getting help
 
 You can create a issue, I will help you.
 
-## Contributions and Suggestions
+###
 
-Any suggestions for features and contributions to the continuing code masterelopment can be made via the issue tracker or code contributions via a ```Fork``` & ```Pull requests```.
+## Credit
 
-OR
+- [Adwaita](https://github.com/GNOME/adwaita-icon-theme)
+- [Bibata](https://github.com/KaizIqbal/Bibata_Cursor)
+- [Dmz](https://github.com/GalliumOS/dmz-cursor-theme)
+- [Yaru](https://github.com/ubuntu/yaru)
+- Emojis are taken from [here](https://emojipedia.org/)
 
-You give suggestions on _slack_ @ [#bibata-cursor](https://kaizkhatri.slack.com/messages/CCK84QYQ4/)
+## Support
 
-## Based On
+**Give a ❤️**
 
-Forked From Original [Bibata](https://github.com/KaizIqbal/Bibata_Cursor)
+**OR**
 
-<p align="center"></br>
-<a style="text-decoration: none;color:#009688;margin:0;padding:0 0 10px 0" href="https://github.com/KaizIqbal">
-<span style="font-size:15px">Your Boy</span></br>
-<span style="font-size:20px">Kaiz Khatri</span>
-<h1 align="center">.^.</h1>
+<a href="https://www.buymeacoffee.com/Nt7Wg4V" target="_blank">
+<img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" >
+</a>
+<br><br>
+<a href="https://www.patreon.com/bePatron?u=13184396" target="_blank">
+<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" alt="Patreon" width=174 height=41 style="box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" >
+</a>
+<br><br>
+<a href="https://www.pling.com/p/1269768/" target="_blank">
+<img src="https://www.pling.com/images_sys/store_pling/pling-logo.png" alt="Pling" width="150" height="81" style="box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;">
+</a>
+
+<p align="center">
+  <h1 align="center">.^.</h1>
 </p>
