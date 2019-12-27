@@ -21,9 +21,9 @@ continue() {
   show_question "\nDo you want to continue? (Y)es, (N)o : \n"
   read INPUT
   case $INPUT in
-    [Yy]* ) ;;
-    [Nn]* ) end;;
-    * ) show_error "\nSorry, try again."; continue;;
+   ( [Yy]* ) ;;
+   ( [Nn]* ) end;;
+   ( * ) show_error "\nSorry, try again."; continue;;
   esac
 }
 
@@ -31,9 +31,9 @@ replace() {
   show_question "\nFound an existing installation. Replace it? (Y)es, (N)o :\n" 
   read INPUT
   case $INPUT in
-    [Yy]* ) rm -rf "$@/Bibata*" 2>/dev/null;;
-    [Nn]* ) ;;
-    * ) show_error "\tSorry, try again."; replace $@;;
+    ( [Yy]* ) rm -rf "$@/Bibata*" 2>/dev/null;;
+    ( [Nn]* ) ;;
+    ( * ) show_error "\tSorry, try again."; replace $@;;
   esac
 }
 
@@ -64,7 +64,10 @@ install() {
   echo -e "\nInstalling Bibata..."
   
   # Copying files
-  cp -rf Bibata_* $DEST_DIR
+  cp -rf $Bibata_Dark_Red $DEST_DIR
+  cp -rf $Bibata_Dodger_Blue $DEST_DIR
+  cp -rf $Bibata_Pink $DEST_DIR
+  cp -rf $Bibata_Turquoise $DEST_DIR
   chmod -R 755 $DEST_DIR/Bibata_*
 
 
@@ -78,7 +81,7 @@ remove() {
   # PREVIEW
 
   # Show installation directory
-  if [[ -d $DEST_DIR/Bibata_Pink ]]; then
+  if [[  -d $DEST_DIR/Bibata_Dark_Red || -d $DEST_DIR/Bibata_Dodger_Blue || -d $DEST_DIR/Bibata_Pink || -d $DEST_DIR/Bibata_Turquoise ]]; then
     echo -e "\nBibata Cursor Theme installed in:\n"
     show_dir "\t$DEST_DIR"
     if [ "$UID" -eq "$ROOT_UID" ]; then
@@ -100,7 +103,10 @@ remove() {
   echo -e "\nRemoving Bibata..."
 
   # Removing files
-  rm -rf $DEST_DIR/Bibata_*
+  rm -rf $DEST_DIR/Bibata_Dark_Red
+  rm -rf $DEST_DIR/Bibata_Dodger_Blue
+  rm -rf $DEST_DIR/Bibata_Pink
+  rm -rf $DEST_DIR/Bibata_Turquoise
 
   echo "Removing complete!"
   echo "I hope to see you soon."
@@ -110,14 +116,18 @@ main() {
   show_question "What you want to do: (I)nstall, (R)emove : \n"
   read INPUT
   case $INPUT in
-    [Ii]* ) install;;
-    [Rr]* ) remove;;
-    * ) show_error "\nSorry, try again."; main;;
+    ( [Ii]* ) install;;
+    ( [Rr]* ) remove;;
+    ( * ) show_error "\nSorry, try again."; main;;
   esac
 }
 
 ROOT_UID=0
 DEST_DIR=
+Bibata_Dark_Red=./Bibata_Dark_Red/out/X11/Bibata_Dark_Red 
+Bibata_Dodger_Blue=./Bibata_Dodger_Blue/out/X11/Bibata_Dodger_Blue
+Bibata_Pink=./Bibata_Pink/out/X11/Bibata_Pink
+Bibata_Turquoise=./Bibata_Turquoise/out/X11/Bibata_Turquoise
 cd "$( dirname "${BASH_SOURCE[0]}" )" || exit
 
 # Destination directory
