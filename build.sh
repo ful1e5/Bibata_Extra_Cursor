@@ -248,7 +248,6 @@ else
     fi
 fi
 
-TODO
 # choice for build cursor
 selection "Cursor to build (Default is 'ALL')?"
 cursors=("Bibata_Dark_Red" "Bibata_Dodger_Blue" "Bibata_Pink" "Bibata_Turquoise" "ALL"  exit )
