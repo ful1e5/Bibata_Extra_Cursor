@@ -204,7 +204,7 @@ More information about script is found in [src](./src/README.md) directory.
 
 - [**Bibata**](https://github.com/KaizIqbal/Bibata_Cursor) - 🚀 Material Based Cursor 🏳️‍🌈
 - [**Bibata Adapta**](https://gitlab.com/cscs/Bibata_AdaptaBreath_Cursors) - Bibata Based Cursor Made for AdaptaBreath and Manjaro.
-- [**Bibata Translucent**](https://github.com/Silicasandwhich/Bibata_Extra_Cursor_Translucent) - Bibata translucent is a translucent flavor of the Bibata.
+- [**Bibata Translucent**](https://github.com/Silicasandwhich/Bibata_Cursor_Translucent) - Bibata translucent is a translucent flavor of the Bibata.
 
 ## Bugs
 
