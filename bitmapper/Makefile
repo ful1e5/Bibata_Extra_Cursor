@@ -1,4 +1,4 @@
-all: install render
+all: yarn_install render
 
 .PHONY: all
 
@@ -9,7 +9,7 @@ clean:
 node_modules:
 	@mkdir -p $@
 
-install: node_modules package.json 
+yarn_install: node_modules package.json 
 	@yarn install
 
 render_modern:
