@@ -3,9 +3,13 @@
 clean:
 	@rm -rf bitmaps themes
 
-all: clean
+render: svg bitmapper
 	@cd bitmapper && $(MAKE)
+
+build: bitmaps
 	@cd builder && make setup build
+
+all: clean render build
 
 
 # Build Only UNIX cursors
