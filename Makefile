@@ -7,7 +7,7 @@ render: svg bitmapper
 	@cd bitmapper && $(MAKE)
 
 build: bitmaps
-	@cd builder && make setup build
+	@cd builder && make setup build clean
 
 all: clean render build
 
@@ -22,9 +22,27 @@ windows: clean render bitmaps
 	@cd builder && make setup build_windows
 
 
-#
+# Build Bibata-Modern Cursors
+modern: clean render_modern build_modern
+
+render_modern: bitmapper svg
+	@cd bitmapper && make install render_modern
+
+build_modern: bitmaps
+	@cd builder && make setup build_modern clean
+
+
+# Build Bibata-Original Cursors
+original:clean render_original build_original
+
+render_original: bitmapper svg
+	@cd bitmapper && make install render_original
+
+build_original: bitmaps
+	@cd builder && make setup build_original clean
+
+
 # Installation
-#
 
 .ONESHELL:
 SHELL:=/bin/bash
