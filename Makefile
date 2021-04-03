@@ -26,7 +26,7 @@ windows: clean render bitmaps
 modern: clean render_modern build_modern
 
 render_modern: bitmapper svg
-	@cd bitmapper && make install render_modern
+	@cd bitmapper && make yarn_install render_modern
 
 build_modern: bitmaps
 	@cd builder && make setup build_modern clean
@@ -36,7 +36,7 @@ build_modern: bitmaps
 original:clean render_original build_original
 
 render_original: bitmapper svg
-	@cd bitmapper && make install render_original
+	@cd bitmapper && make yarn_install render_original
 
 build_original: bitmaps
 	@cd builder && make setup build_original clean
