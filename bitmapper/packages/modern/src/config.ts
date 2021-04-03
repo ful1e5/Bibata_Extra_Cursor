@@ -6,6 +6,7 @@ interface Config {
 }
 
 const white = "#FFFFFF";
+const black = "#000000";
 const darkRed = "#B20000";
 const dodgerBlue = "#5848FF";
 const pink = "#FE009E";
@@ -17,6 +18,9 @@ const config: Config[] = [
     color: {
       base: darkRed,
       outline: white,
+      watch: {
+        background: black,
+      },
     },
   },
   {
@@ -24,6 +28,9 @@ const config: Config[] = [
     color: {
       base: dodgerBlue,
       outline: white,
+      watch: {
+        background: black,
+      },
     },
   },
   {
@@ -31,6 +38,9 @@ const config: Config[] = [
     color: {
       base: turquise,
       outline: white,
+      watch: {
+        background: black,
+      },
     },
   },
   {
@@ -38,6 +48,9 @@ const config: Config[] = [
     color: {
       base: pink,
       outline: white,
+      watch: {
+        background: black,
+      },
     },
   },
 ];
