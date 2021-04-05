@@ -79,7 +79,7 @@ Bibata Extra is a fork of [Bibata](https://github.com/ful1e5/Bibata_Cursor) for 
 - **Bibata DarkRed :** Rich red theme.
 - **Bibata DodgerBlue :** Slightly light blue theme.
 - **Bibata Pink :** Queen pink theme.
-- **Bibata Turquise :** Sky blue with green tint theme.
+- **Bibata Turquoise :** Sky blue with green tint theme.
 
 ## Bibata Styles
 
@@ -106,7 +106,7 @@ Bibata Extra is a fork of [Bibata](https://github.com/ful1e5/Bibata_Cursor) for 
 ![DarkRed](https://imgur.com/5YVGk7L.png)
 ![DodgerBlue](https://imgur.com/ZMZ5qrx.png)
 ![Pink](https://imgur.com/qgts8NG.png)
-![Turquise](https://imgur.com/GIxJqTX.png)
+![Turquoise](https://imgur.com/GIxJqTX.png)
 
 <!-- Preview -->
 
@@ -133,9 +133,9 @@ Bibata Extra is a fork of [Bibata](https://github.com/ful1e5/Bibata_Cursor) for 
 </p>
 
 <p align="center">
-  <img title="Bibata Turquise" width="90%" src="https://i.postimg.cc/brs31qZn/Turquise.png">
+  <img title="Bibata Turquoise" width="90%" src="https://i.postimg.cc/brs31qZn/Turquoise.png">
   </br>
-  <sub>Bibata Turquise</sub>
+  <sub>Bibata Turquoise</sub>
 </p>
 
 ## Quick install
