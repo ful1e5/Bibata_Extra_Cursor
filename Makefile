@@ -1,3 +1,4 @@
+all: clean render build
 .PHONY: all
 
 clean:
@@ -9,7 +10,6 @@ render: svg bitmapper
 build: bitmaps
 	@cd builder && make setup build clean
 
-all: clean render build
 
 
 # Build Only UNIX cursors
