@@ -7,7 +7,7 @@ bitmaps_dir = "../bitmaps"
 .ONESHELL:
 SHELL:=/bin/bash
 
-THEMES = DarkRed DodgerBlue Pink Turquise
+THEMES = DarkRed DodgerBlue Pink Turquoise
 X_SIZES ?= 22 24 28 32 40 48 56 64 72 80 88 96
 WIN_CANVAS_SIZE ?= 32
 WIN_SIZE ?= 24
