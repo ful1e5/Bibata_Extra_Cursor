@@ -127,13 +127,13 @@ Bibata Extra is a fork of [Bibata](https://github.com/ful1e5/Bibata_Cursor) for 
 </p>
 
 <p align="center">
-  <img title="Bibata Pink" width="90%" src="https://i.postimg.cc/FRFPsymD/Pink.png">
+  <img title="Bibata Pink" width="90%" src="https://i.postimg.cc/j5hF0ygp/Pink.png">
   </br>
   <sub>Bibata Pink</sub>
 </p>
 
 <p align="center">
-  <img title="Bibata Turquoise" width="90%" src="https://i.postimg.cc/brs31qZn/Turquoise.png">
+  <img title="Bibata Turquoise" width="90%" src="https://i.postimg.cc/PJ3VNTkK/Turquoise.png">
   </br>
   <sub>Bibata Turquoise</sub>
 </p>
