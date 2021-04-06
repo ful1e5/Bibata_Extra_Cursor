@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
+### Changed
+
+- `Turqouise` typo fixed #9 (by @yochananmarqos)
+
 ## [v1.0.0] - 5 Apr 2021
 
 ### Changed
