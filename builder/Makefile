@@ -13,16 +13,10 @@ WIN_CANVAS_SIZE ?= 32
 WIN_SIZE ?= 24
 
 clean:
-	@rm -rf bbpkg.egg-info build dist
-	@find -iname "*.pyc" -delete
-	# Removing setup.py package files if installed
-	@if [ -f "files.txt" ]; then
-		@xargs rm -rf < files.txt
-		@rm -rf files.txt
-	@fi
+	rm -rf bebuild/__pycache__
 
-setup: setup.py
-	@python3 setup.py install --user --record files.txt
+setup:
+	@python3 setup.py install --user clickgen
 
 build: build_modern build_original
 
