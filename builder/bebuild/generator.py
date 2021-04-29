@@ -13,24 +13,31 @@ from .symlinks import add_missing_xcursor
 
 
 class Info(NamedTuple):
-    """Important cursor package's information field"""
+    """Theme basic information.
+
+    :param name: Theme title.
+    :type name: ``str``
+
+    :param comment: quick information about theme.
+    :type comment: ``str``
+    """
 
     name: str
     comment: str
 
 
 def xbuild(config: Dict[str, Dict[str, Any]], x_out_dir: Path, info: Info) -> None:
-    """Build `Bibata` cursor theme for only `X11`(UNIX) platform.
+    """Build `Bibata-Extra` cursor theme for only `X11`(UNIX) platform.
 
-    :param config: `Bibata` configuration.
-    :type config: Dict[str, Dict[str, Any]]
+    :param config: `Bibata-Extra` configuration.
+    :type config: ``Dict``
 
-    :param x_out_dir: Path to the output directory, \
-                      Where the `X11` cursor theme package will generate.\
-                      It also creates a directory if not exists.
-    :type x_out_dir: Path
+    :param x_out_dir: Path to the output directory,\
+                Where the `X11` cursor theme package will generate.\
+                It also creates a directory if not exists.
+    :type x_out_dir: ``pathlib.Path``
 
-    :param info: Content theme name & comment
+    :param info: Content theme name & comment.
     :type info: Info
     """
 
@@ -50,18 +57,18 @@ def xbuild(config: Dict[str, Dict[str, Any]], x_out_dir: Path, info: Info) -> No
 
 
 def wbuild(config: Dict[str, Dict[str, Any]], win_out_dir: Path, info: Info) -> None:
-    """Build `Bibata` cursor theme for only `Windows` platforms.
+    """Build `Bibata-Extra` cursor theme for only `Windows` platforms.
 
-    :param config: `Bibata` configuration.
-    :type config: Dict[str, Dict[str, Any]]
+    :param config: `Bibata-Extra` configuration.
+    :type config: ``Dict``
 
     :param win_out_dir: Path to the output directory,\
-                        Where the `Windows` cursor theme package will \
-                        generate. It also creates a directory if not exists.
-    :type win_out_dir: Path
+                  Where the `Windows` cursor theme package will generate.\
+                  It also creates a directory if not exists.
+    :type win_out_dir: ``pathlib.Path``
 
-    :param info: Content theme name & comment
-    :type info: Dict
+    :param info: Content theme name & comment.
+    :type info: Info
     """
 
     for _, item in config.items():
@@ -92,18 +99,23 @@ def wbuild(config: Dict[str, Dict[str, Any]], win_out_dir: Path, info: Info) -> 
 def build(
     config: Dict[str, Dict[str, Any]], x_out_dir: Path, win_out_dir: Path, info: Info
 ) -> None:
-    """Build `Bibata` cursor theme for `X11` & `Windows` platforms.
+    """Build `Bibata-Extra` cursor theme for `X11` & `Windows` platforms.
 
-    :param config: `Bibata` configuration.
-    :type config: Dict[str, Dict[str, Any]]
+    :param config: `Bibata-Extra` configuration.
+    :type config: ``Dict``
+
+    :param x_out_dir: Path to the output directory,\
+                Where the `X11` cursor theme package will generate.\
+                It also creates a directory if not exists.
+    :type x_out_dir: ``pathlib.Path``
 
     :param win_out_dir: Path to the output directory,\
-                        Where the `Windows` cursor theme package will \
-                        generate. It also creates a directory if not exists.
-    :type win_out_dir: Path
+                  Where the `Windows` cursor theme package will generate.\
+                  It also creates a directory if not exists.
+    :type win_out_dir: ``pathlib.Path``
 
-    :param info: Content theme name & comment
-    :type info: Dict
+    :param info: Content theme name & comment.
+    :type info: Info
     """
 
     def win_build(item: Dict[str, Any], alias: CursorAlias) -> None:

@@ -9,10 +9,10 @@ from clickgen.util import chdir
 
 
 def add_missing_xcursor(directory: Union[str, Path]) -> None:
-    """Add missing `XCursor` to the UNIX cursor package.
+    """Add missing `XCursor` to the Unix cursor package.
 
     :param directory: directory where XCursors are available.
-    :type directory: Union[str, Path]
+    :type directory: ``str`` or ``Path``
     """
 
     symlinks = [
