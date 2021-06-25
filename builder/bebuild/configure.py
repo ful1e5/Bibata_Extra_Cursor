@@ -6,8 +6,7 @@ from typing import Any, Dict, Tuple, TypeVar, Union
 
 from clickgen.util import PNGProvider
 
-from bbpkg.constants import WIN_CURSORS_CFG, WIN_DELAY, X_CURSORS_CFG, X_DELAY
-
+from .constants import WIN_CURSORS_CFG, WIN_DELAY, X_CURSORS_CFG, X_DELAY
 
 X = TypeVar("X")
 
@@ -17,28 +16,30 @@ def to_tuple(x: X) -> Tuple[X, X]:
 
 
 def get_config(bitmaps_dir: Union[str, Path], **kwargs) -> Dict[str, Any]:
-    """Return configuration of `Bibata`.
+    """Return configuration of `Bibata-Extra` pointers.
 
     :param bitmaps_dir: Path to .png file's directory.
-    :type bitmaps_dir: Union[str, Path]
+    :type bitmaps_dir: ``str`` or  ``pathlib.Path``
 
-    :param x_sizes: List of pixel-sizes for xcursors.
-    :type x_sizes: List[int]
+    :param **kwargs:
+        See below
 
-    :param win_canvas_size: Windows cursor's canvas pixel-size.
-    :type win_canvas_size: int
-
-    :param win_size: Pixel-size for Windows cursor.
-    :type win_size: int
+    :Keyword Arguments:
+        * *x_sizes* (``List[int]``) --
+          List of pixel-sizes for xcursors.
+        * *win_canvas_size* (``int``) --
+          Windows cursor's canvas pixel-size.
+        * *win_size* (``int``) --
+          Pixel-size for Windows cursor.
 
     Example:
 
     ```python
         get_config(
-            "./bitmaps",
-            x_sizes=[(24, 24), (32, 32)],
-            win_canvas_size=(32, 32),
-            win_size=(24, 24),
+            bitmaps_dir="./bitmaps",
+            x_sizes=[24, 28, 32],
+            win_canvas_size=32,
+            win_size=24,
         )
     ```
     """

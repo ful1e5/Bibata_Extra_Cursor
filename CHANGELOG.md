@@ -7,8 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
+## [v1.0.1] - 25 Jun 2021
+
+### Added
+
+- Support button inside PLING.bbcode product page
+
 ### Changed
 
+- relative import module
+- build module import fix inside `build.py`
+- Move builder module to `bebuild`
 - `Turqouise` typo fixed #9 (by @yochananmarqos)
 
 ## [v1.0.0] - 5 Apr 2021
@@ -39,6 +48,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release 🎊
 
-[unreleased]: https://github.com/ful1e5/Bibata_Extra_Cursor/compare/v1.0.0...main
+[unreleased]: https://github.com/ful1e5/Bibata_Extra_Cursor/compare/v1.0.1...main
+[v1.0.1]: https://github.com/ful1e5/Bibata_Extra_Cursor/compare/v1.0.0...v1.0.1
 [v1.0.0]: https://github.com/ful1e5/Bibata_Extra_Cursor/compare/v0.3...v1.0.0
 [v0.3]: https://github.com/ful1e5/Bibata_Extra_Cursor/tree/v0.3
