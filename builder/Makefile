@@ -16,7 +16,7 @@ clean:
 	rm -rf bebuild/__pycache__
 
 setup:
-	@python3 setup.py install --user clickgen
+	@python3 -m pip install clickgen --user
 
 build: build_modern build_original
 

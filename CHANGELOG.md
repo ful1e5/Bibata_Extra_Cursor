@@ -7,12 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
+## [v1.0.1] - 25 Jun 2021
+
 ### Added
 
 - Support button inside PLING.bbcode product page
 
 ### Changed
 
+- relative import module
+- build module import fix inside `build.py`
+- Move builder module to `bebuild`
 - `Turqouise` typo fixed #9 (by @yochananmarqos)
 
 ## [v1.0.0] - 5 Apr 2021
