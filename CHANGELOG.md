@@ -11,13 +11,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Support button inside PLING.bbcode product page
+- Support button inside `PLING.bbcode` product page
+- `pyrightconfig.json` init
 
 ### Changed
 
-- relative import module
-- build module import fix inside `build.py`
-- Move builder module to `bebuild`
+- Removed **clean** target from `builder/Makefile`
+- Compact code inside `builder/*`
+- Remove `setup.py`
+- Builder code moved to `src`
+- Import `src` module directly inside `build.py`
+- `Makefile` build commands re-arrange with groups
 - `Turqouise` typo fixed #9 (by @yochananmarqos)
 
 ## [v1.0.0] - 5 Apr 2021
