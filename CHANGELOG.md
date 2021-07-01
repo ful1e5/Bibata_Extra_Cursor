@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Support button inside `PLING.bbcode` product page
 - `pyrightconfig.json` init
+- `make prepare` for preparing binaries
 
 ### Changed
 

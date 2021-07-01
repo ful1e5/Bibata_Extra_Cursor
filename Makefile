@@ -8,8 +8,7 @@ render: svg bitmapper
 	@cd bitmapper && $(MAKE)
 
 build: bitmaps
-	@cd builder && make setup build clean
-
+	@cd builder && make setup build
 
 
 # Build Only UNIX cursors
@@ -29,7 +28,7 @@ render_modern: bitmapper svg
 	@cd bitmapper && make yarn_install render_modern
 
 build_modern: bitmaps
-	@cd builder && make setup build_modern clean
+	@cd builder && make setup build_modern
 
 
 # Build Bibata-Original Cursors
@@ -39,7 +38,7 @@ render_original: bitmapper svg
 	@cd bitmapper && make yarn_install render_original
 
 build_original: bitmaps
-	@cd builder && make setup build_original clean
+	@cd builder && make setup build_original
 
 
 # Installation
@@ -75,3 +74,34 @@ uninstall:
 	@fi
 
 reinstall: uninstall install
+
+
+# generates binaries
+THEMES = DarkRed DodgerBlue Pink Turquoise
+BIN_DIR = ../bin
+prepare: bitmaps themes
+	# Bitmaps
+	@rm -rf bin && mkdir bin
+	@cd bitmaps && zip -r $(BIN_DIR)/bitmaps.zip * && cd ..
+	@cd themes
+	#
+	# Bibata-Original
+	#
+	@$(foreach theme,$(THEMES), tar -czvf $(BIN_DIR)/Bibata-Modern-$(theme).tar.gz Bibata-Modern-$(theme);)
+	@$(foreach theme,$(THEMES), zip -r $(BIN_DIR)/Bibata-Modern-$(theme)-Windows.zip Bibata-Modern-$(theme)-Windows;)
+	@tar -czvf $(BIN_DIR)/Bibata-Modern.tar.gz Bibata-Modern-DarkRed Bibata-Modern-DodgerBlue Bibata-Modern-Pink Bibata-Modern-Turquoise
+	@zip -r $(BIN_DIR)/Bibata-Modern-Windows.zip Bibata-Modern-DarkRed-Windows Bibata-Modern-DodgerBlue-Windows Bibata-Modern-Pink-Windows Bibata-Modern-Turquoise-Windows
+	#
+	# Bibata-Original
+	#
+	@$(foreach theme,$(THEMES), tar -czvf $(BIN_DIR)/Bibata-Original-$(theme).tar.gz Bibata-Original-$(theme);)
+	@$(foreach theme,$(THEMES), zip -r $(BIN_DIR)/Bibata-Original-$(theme)-Windows.zip Bibata-Original-$(theme)-Windows;)
+	@tar -czvf $(BIN_DIR)/Bibata-Original.tar.gz Bibata-Original-DarkRed Bibata-Original-DodgerBlue Bibata-Original-Pink Bibata-Original-Turquoise
+	@zip -r $(BIN_DIR)/Bibata-Original-Windows.zip Bibata-Original-DarkRed-Windows Bibata-Original-DodgerBlue-Windows Bibata-Original-Pink-Windows Bibata-Original-Turquoise-Windows
+	#
+	# Bibata.tar.gz
+	#
+	@tar -czvf $(BIN_DIR)/Bibata.tar.gz --exclude='*-Windows' *
+	@cd ..
+
+
