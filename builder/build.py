@@ -4,8 +4,8 @@
 import argparse
 from pathlib import Path
 
-from bebuild.configure import get_config
-from bebuild.generator import Info, xbuild, wbuild, build
+from src.configure import get_config
+from src.generator import Info, xbuild, wbuild, build
 
 
 parser = argparse.ArgumentParser(
