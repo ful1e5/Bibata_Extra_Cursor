@@ -7,8 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
+### Added
+
+- Bibata Zebra link added inside README.md
+
+## [v1.0.1] - 25 Jun 2021
+
+### Added
+
+- Support button inside `PLING.bbcode` product page
+- `pyrightconfig.json` init
+- `make prepare` for preparing binaries
+
 ### Changed
 
+- Removed **clean** target from `builder/Makefile`
+- Compact code inside `builder/*`
+- Remove `setup.py`
+- Builder code moved to `src`
+- Import `src` module directly inside `build.py`
+- `Makefile` build commands re-arrange with groups
 - `Turqouise` typo fixed #9 (by @yochananmarqos)
 
 ## [v1.0.0] - 5 Apr 2021
@@ -39,6 +57,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release 🎊
 
-[unreleased]: https://github.com/ful1e5/Bibata_Extra_Cursor/compare/v1.0.0...main
+[unreleased]: https://github.com/ful1e5/Bibata_Extra_Cursor/compare/v1.0.1...main
+[v1.0.1]: https://github.com/ful1e5/Bibata_Extra_Cursor/compare/v1.0.0...v1.0.1
 [v1.0.0]: https://github.com/ful1e5/Bibata_Extra_Cursor/compare/v0.3...v1.0.0
 [v0.3]: https://github.com/ful1e5/Bibata_Extra_Cursor/tree/v0.3
