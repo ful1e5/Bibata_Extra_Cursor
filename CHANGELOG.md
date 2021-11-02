@@ -9,7 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Bibata Zebra link added inside README.md
+- [Bibata Zebra](https://github.com/ful1e5/Bibata-Zebra-Cursor) link added inside README.md
+- [Bibata Bee](https://github.com/ful1e5/Bibata-Bee-Cursor) link added inside README.md
 
 ## [v1.0.1] - 25 Jun 2021
 
