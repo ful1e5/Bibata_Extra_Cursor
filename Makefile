@@ -44,32 +44,33 @@ build_original: bitmaps
 # Installation
 
 .ONESHELL:
-SHELL:=/bin/bash
+SHELL := /bin/bash
+THEME_PREFIX = Bibata
 
-src = ./themes/Bibata-*
+src = ./themes/$(THEME_PREFIX)-*
 local := ~/.icons
-local_dest := $(local)/Bibata-*
+local_dest := $(local)/$(THEME_PREFIX)-*
 
 root := /usr/share/icons
-root_dest := $(root)/Bibata-*
+root_dest := $(root)/$(THEME_PREFIX)-*
 
 install: themes
 	@if [[ $EUID -ne 0 ]]; then
-		@echo "> Installing 'Bibata Extra' cursors inside $(local)/..."
+		@echo "> Installing '$(THEME_PREFIX)' cursors inside $(local)/..."
 		@mkdir -p $(local)
 		@cp -r $(src) $(local)/ && echo "> Installed!"
 	@else
-		@echo "> Installing 'Bibata Extra' cursors inside $(root)/..."
+		@echo "> Installing '$(THEME_PREFIX)' cursors inside $(root)/..."
 		@mkdir -p $(root)
 		@sudo cp -r $(src) $(root)/ && echo "> Installed!"
 	@fi
 
 uninstall:
 	@if [[ $EUID -ne 0 ]]; then
-		@echo "> Removing 'Bibata Extra' cursors from '$(local)'..."
+		@echo "> Removing '$(THEME_PREFIX)' cursors from '$(local)'..."
 		@rm -rf $(local_dest)
 	@else
-		@echo "> Removing 'Bibata Extra' cursors from '$(root)'..."
+		@echo "> Removing '$(THEME_PREFIX)' cursors from '$(root)'..."
 		@sudo rm -rf $(root_dest)
 	@fi
 
@@ -79,6 +80,9 @@ reinstall: uninstall install
 # generates binaries
 THEMES = DarkRed DodgerBlue Pink Turquoise
 BIN_DIR = ../bin
+
+modern = $(THEME_PREFIX)-Modern
+original = $(THEME_PREFIX)-Original
 prepare: bitmaps themes
 	# Bitmaps
 	@rm -rf bin && mkdir bin
@@ -87,21 +91,19 @@ prepare: bitmaps themes
 	#
 	# Bibata-Modern
 	#
-	@$(foreach theme,$(THEMES), tar -czvf $(BIN_DIR)/Bibata-Modern-$(theme).tar.gz Bibata-Modern-$(theme);)
-	@$(foreach theme,$(THEMES), zip -r $(BIN_DIR)/Bibata-Modern-$(theme)-Windows.zip Bibata-Modern-$(theme)-Windows;)
-	@tar -czvf $(BIN_DIR)/Bibata-Modern.tar.gz Bibata-Modern-DarkRed Bibata-Modern-DodgerBlue Bibata-Modern-Pink Bibata-Modern-Turquoise
-	@zip -r $(BIN_DIR)/Bibata-Modern-Windows.zip Bibata-Modern-DarkRed-Windows Bibata-Modern-DodgerBlue-Windows Bibata-Modern-Pink-Windows Bibata-Modern-Turquoise-Windows
+	@$(foreach theme,$(THEMES), tar -czvf $(BIN_DIR)/$(modern)-$(theme).tar.gz $(modern)-$(theme);)
+	@$(foreach theme,$(THEMES), zip -r $(BIN_DIR)/$(modern)-$(theme)-Windows.zip $(modern)-$(theme)-Windows;)
+	@tar -czvf $(BIN_DIR)/$(modern).tar.gz $(modern)-DarkRed $(modern)-DodgerBlue $(modern)-Pink $(modern)-Turquoise
+	@zip -r $(BIN_DIR)/$(modern)-Windows.zip $(modern)-DarkRed-Windows $(modern)-DodgerBlue-Windows $(modern)-Pink-Windows $(modern)-Turquoise-Windows
 	#
 	# Bibata-Original
 	#
-	@$(foreach theme,$(THEMES), tar -czvf $(BIN_DIR)/Bibata-Original-$(theme).tar.gz Bibata-Original-$(theme);)
-	@$(foreach theme,$(THEMES), zip -r $(BIN_DIR)/Bibata-Original-$(theme)-Windows.zip Bibata-Original-$(theme)-Windows;)
-	@tar -czvf $(BIN_DIR)/Bibata-Original.tar.gz Bibata-Original-DarkRed Bibata-Original-DodgerBlue Bibata-Original-Pink Bibata-Original-Turquoise
-	@zip -r $(BIN_DIR)/Bibata-Original-Windows.zip Bibata-Original-DarkRed-Windows Bibata-Original-DodgerBlue-Windows Bibata-Original-Pink-Windows Bibata-Original-Turquoise-Windows
+	@$(foreach theme,$(THEMES), tar -czvf $(BIN_DIR)/$(original)-$(theme).tar.gz $(original)-$(theme);)
+	@$(foreach theme,$(THEMES), zip -r $(BIN_DIR)/$(original)-$(theme)-Windows.zip $(original)-$(theme)-Windows;)
+	@tar -czvf $(BIN_DIR)/$(original).tar.gz $(original)-DarkRed $(original)-DodgerBlue $(original)-Pink $(original)-Turquoise
+	@zip -r $(BIN_DIR)/$(original)-Windows.zip $(original)-DarkRed-Windows $(original)-DodgerBlue-Windows $(original)-Pink-Windows $(original)-Turquoise-Windows
 	#
-	# Bibata.tar.gz
+	# BibataExtra.tar.gz
 	#
 	@tar -czvf $(BIN_DIR)/BibataExtra.tar.gz --exclude='*-Windows' *
 	@cd ..
-
-
