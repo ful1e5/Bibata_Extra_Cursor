@@ -1,5 +1,3 @@
-<!-- Branding -->
-
 <p align="center">
   <img src="https://imgur.com/t0wnOMv.png" width="18%">
 </p>
@@ -8,11 +6,7 @@
   🌈 <b>More Bibata</b> 🚀
 </p>
 
-<!-- Badges -->
-
 <p align="center">
-
-  <!-- First Row -->
 
   <a href="https://github.com/ful1e5/Bibata_Extra_Cursor/actions/workflows/bibata-ci.yml">
     <img alt="GitHub Action Build" src="https://github.com/ful1e5/Bibata_Extra_Cursor/actions/workflows/bibata-ci.yml/badge.svg"/>
@@ -21,8 +15,6 @@
   <a href="https://www.codefactor.io/repository/github/ful1e5/bibata_extra_cursor">
     <img src="https://www.codefactor.io/repository/github/ful1e5/bibata_extra_cursor/badge" alt="CodeFactor" />
   </a>
-
-  <!-- Second Row -->
 
   </br >
   <a href="https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html">
@@ -33,8 +25,7 @@
     <img alt="Clickgen" src="https://img.shields.io/badge/theme%20builder-clickgen-FD0542" />
   </a>
   
-  
-  <!-- Third Row -->
+
 
   </br >
   <a href="https://github.com/ful1e5/Bibata_Extra_Cursor/blob/main/LICENSE" >
@@ -49,8 +40,7 @@
     <img alt="AUR version" src="https://img.shields.io/aur/version/bibata-extra-cursor-theme">
   </a>
   
-  
-  <!-- Fourth Row -->
+
 
   <br />
   <a href="https://www.pling.com/p/1269768/#files-panel">
@@ -60,8 +50,6 @@
   <a href="https://www.pling.com/p/1269768/#files-panel">
     <img alt="License" src="https://img.shields.io/badge/-Windows-blue?logo=windows" />
   </a>
-
-  <!-- Fifth Row -->
 
   <br />
   <a href="https://github.com/ful1e5">
@@ -108,8 +96,6 @@ Bibata Extra is a fork of [Bibata](https://github.com/ful1e5/Bibata_Cursor) for 
 ![Pink](https://imgur.com/qgts8NG.png)
 ![Turquoise](https://imgur.com/GIxJqTX.png)
 
-<!-- Preview -->
-
 ## Preview
 
 > Check Figma file [here](https://www.figma.com/file/Y9RKZLXhSvaxpUzsKGJkp6/Bibata-Cursor?node-id=0%3A1)
@@ -146,9 +132,9 @@ Bibata Extra is a fork of [Bibata](https://github.com/ful1e5/Bibata_Cursor) for 
   </a>
 </p>
 
-## Packages 📦
+## Packages
 
-> **📝Note**: If you're having trouble with the packages please submit a request to the package maintainer before creating an issue.
+> **Note**: If you're having trouble with the packages please submit a request to the package maintainer before creating an issue.
 
 ### Arch Linux/Manjaro
 
@@ -190,8 +176,6 @@ sudo mv Bibata-* /usr/share/icons/
 3. Click 'Install' from the context menu, and authorize the modifications to your system.
 4. Open _Control Panel_ > _Personalization and Appearance_ > _Change mouse pointers_, and select **Bibata Cursors**.
 5. Click '**Apply**'.
-
-<!-- Build Dependencies -->
 
 # Dependencies
 
@@ -249,7 +233,7 @@ sudo dnf install libX11-devel libXcursor-devel libpng-devel
 
 ## Build From Scratch
 
-### ⚡ Auto Build (using GitHub Actions)
+### Auto Build (using GitHub Actions)
 
 GitHub Actions is automatically runs on every `push`(on **main** & **dev** branch) and `pull request`(on **main** branch), You found theme resources in `artifact` section of **bibata-ci**. GitHub **Actions** available inside [.github/workflows](https://github.com/ful1e5/Bibata_Extra_Cursor/tree/main/.github/workflows) directory.
 
@@ -296,8 +280,6 @@ make windows WIN_SIZE=96            # Supports only one pixel-size
 
 > Windows installations steps are same as [these](#windows).
 
-<!-- Other Interesting projects -->
-
 # You may also like...
 
 - [**Bibata**](https://github.com/ful1e5/Bibata_Cursor) - Material Based Cursors 🚀
@@ -307,25 +289,17 @@ make windows WIN_SIZE=96            # Supports only one pixel-size
 - [**Bibata Zebra**](https://github.com/ful1e5/Bibata-Zebra-Cursor) - Bibata cursor with a semi-animated strip zebra
 - [**Bibata Bee**](https://github.com/ful1e5/Bibata-Bee-Cursor) - 'Semi-Animated' Bibata cursors with bee stripes
 
-<!-- Bug Report -->
-
 # Bugs
 
-Bugs 🐛 should be reported [here](https://github.com/ful1e5/Bibata_Extra_Cursor/issues) on the Github issues page.
-
-<!-- Help -->
+Bugs should be reported [here](https://github.com/ful1e5/Bibata_Extra_Cursor/issues) on the Github issues page.
 
 # Getting Help
 
 You can create a **issue**, I will help you. 🙂
 
-<!-- Contributions and Suggestion -->
-
 # Contributing
 
 Check [CONTRIBUTING.md](CONTRIBUTING.md), any suggestions for features and contributions to the continuing code masterelopment can be made via the issue tracker or code contributions via a `Fork` & `Pull requests`.
-
-<!-- This project isn't possible without these 👇🏻-->
 
 # Credit
 
@@ -334,20 +308,3 @@ Check [CONTRIBUTING.md](CONTRIBUTING.md), any suggestions for features and contr
 - [Yaru](https://github.com/ubuntu/yaru)
 - Emojis are taken from [here](https://emojipedia.org/)
 - Wedge loading from [loading.io](https://loading.io/spinner/wedges/-pie-wedge-pizza-circle-round-rotate) with **Microsoft** colors
-
-<!-- Support -->
-
-# Support
-
-<a href="https://www.buymeacoffee.com/Nt7Wg4V" >
-  <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" >
-</a>
-
-<!-- Ninja  -->
-
-<p align="center">
-  <h1 align="center">(◣_◢)</h1>
-</p>
-<p align="center">
-  <sub>Stop <strong>scrolling</strong>, It's <strong>hurt</strong> me</sub>
-</p>
