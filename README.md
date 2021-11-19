@@ -1,68 +1,12 @@
-<p align="center">
-  <img src="https://imgur.com/t0wnOMv.png" width="18%">
-</p>
-
-<p align="center">
-  🌈 <b>More Bibata</b> 🚀
-</p>
-
-<p align="center">
-
-  <a href="https://github.com/ful1e5/Bibata_Extra_Cursor/actions/workflows/bibata-ci.yml">
-    <img alt="GitHub Action Build" src="https://github.com/ful1e5/Bibata_Extra_Cursor/actions/workflows/bibata-ci.yml/badge.svg"/>
-  </a>
-  
-  <a href="https://www.codefactor.io/repository/github/ful1e5/bibata_extra_cursor">
-    <img src="https://www.codefactor.io/repository/github/ful1e5/bibata_extra_cursor/badge" alt="CodeFactor" />
-  </a>
-
-  </br >
-  <a href="https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html">
-    <img alt="npm type definitions" src="https://img.shields.io/npm/types/typescript">
-  </a>
-
-  <a href="https://github.com/ful1e5/clickgen">
-    <img alt="Clickgen" src="https://img.shields.io/badge/theme%20builder-clickgen-FD0542" />
-  </a>
-  
-
-
-  </br >
-  <a href="https://github.com/ful1e5/Bibata_Extra_Cursor/blob/main/LICENSE" >
-    <img alt="License" src="https://img.shields.io/github/license/ful1e5/Bibata_Extra_Cursor?color=0081FB" />
-  </a>
-
-  <a href="https://github.com/ful1e5/Bibata_Extra_Cursor/releases" >
-    <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/ful1e5/Bibata_Extra_Cursor">
-  </a>
-  
-  <a href="https://aur.archlinux.org/packages/bibata-extra-cursor-theme/" >
-    <img alt="AUR version" src="https://img.shields.io/aur/version/bibata-extra-cursor-theme">
-  </a>
-  
-
-
-  <br />
-  <a href="https://www.pling.com/p/1269768/#files-panel">
-    <img alt="License" src="https://img.shields.io/badge/-Linux-grey?logo=linux" />
-  </a>
-
-  <a href="https://www.pling.com/p/1269768/#files-panel">
-    <img alt="License" src="https://img.shields.io/badge/-Windows-blue?logo=windows" />
-  </a>
-
-  <br />
-  <a href="https://github.com/ful1e5">
-    <img alt="Made By Kaiz"  src="https://kaiz.vercel.app/api/badge" width="133" />
-  </a>
-
-</p>
-
----
-
-# Why Bibata Extra?
+# Bibata Extra Cursor
 
 Bibata Extra is a fork of [Bibata](https://github.com/ful1e5/Bibata_Cursor) for supporting a **wide range of colors** inside Bibata.
+
+[![build](https://github.com/ful1e5/Bibata_Extra_Cursor/actions/workflows/build.yml/badge.svg)](https://github.com/ful1e5/Bibata_Extra_Cursor/actions/workflows/build.yml)
+[![CodeFactor](https://www.codefactor.io/repository/github/ful1e5/bibata_extra_cursor/badge)](https://www.codefactor.io/repository/github/ful1e5/bibata_extra_cursor)
+[![Twitter](https://img.shields.io/badge/twitter-ful1e5-blue)](https://twitter.com/ful1e5)
+
+## Naming
 
 - **Bibata DarkRed :** Rich red theme.
 - **Bibata DodgerBlue :** Slightly light blue theme.
@@ -96,6 +40,14 @@ Bibata Extra is a fork of [Bibata](https://github.com/ful1e5/Bibata_Cursor) for 
 ![Pink](https://imgur.com/qgts8NG.png)
 ![Turquoise](https://imgur.com/GIxJqTX.png)
 
+## Quick install
+
+<p align="center">
+  <a href="https://www.pling.com/p/1269768/" >
+    <img title="Bibata Pling Store" width="40%" src="https://imgur.com/VxSgrWw.png">
+  </a>
+</p>
+
 ## Preview
 
 > Check Figma file [here](https://www.figma.com/file/Y9RKZLXhSvaxpUzsKGJkp6/Bibata-Cursor?node-id=0%3A1)
@@ -122,14 +74,6 @@ Bibata Extra is a fork of [Bibata](https://github.com/ful1e5/Bibata_Cursor) for 
   <img title="Bibata Turquoise" width="90%" src="https://i.postimg.cc/PJ3VNTkK/Turquoise.png">
   </br>
   <sub>Bibata Turquoise</sub>
-</p>
-
-## Quick install
-
-<p align="center">
-  <a href="https://www.pling.com/p/1269768/" >
-    <img title="Bibata Pling Store" width="40%" src="https://imgur.com/VxSgrWw.png">
-  </a>
 </p>
 
 ## Packages
@@ -235,7 +179,7 @@ sudo dnf install libX11-devel libXcursor-devel libpng-devel
 
 ### Auto Build (using GitHub Actions)
 
-GitHub Actions is automatically runs on every `push`(on **main** & **dev** branch) and `pull request`(on **main** branch), You found theme resources in `artifact` section of **bibata-ci**. GitHub **Actions** available inside [.github/workflows](https://github.com/ful1e5/Bibata_Extra_Cursor/tree/main/.github/workflows) directory.
+GitHub Actions is automatically runs on every `push`(on **main** & **dev** branch) and `pull request`(on **main** branch), You found theme resources in `artifact` section of **build**. GitHub **Actions** available inside [.github/workflows](https://github.com/ful1e5/Bibata_Extra_Cursor/tree/main/.github/workflows) directory.
 
 ### Manual Build
 
@@ -280,7 +224,7 @@ make windows WIN_SIZE=96            # Supports only one pixel-size
 
 > Windows installations steps are same as [these](#windows).
 
-# You may also like...
+## You may also like...
 
 - [**Bibata**](https://github.com/ful1e5/Bibata_Cursor) - Material Based Cursors 🚀
 - [**Bibata Adapta**](https://gitlab.com/cscs/Bibata_AdaptaBreath_Cursors) - Bibata Based Cursor Made for AdaptaBreath and Manjaro.

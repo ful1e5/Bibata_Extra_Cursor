@@ -1,4 +1,4 @@
-name: bibata-ci
+name: build
 
 on:
     push:
