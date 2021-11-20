@@ -1,10 +1,10 @@
 # Bibata Extra Cursor
 
-Bibata Extra is a fork of [Bibata](https://github.com/ful1e5/Bibata_Cursor) for supporting a **wide range of colors** inside Bibata.
-
 [![build](https://github.com/ful1e5/Bibata_Extra_Cursor/actions/workflows/build.yml/badge.svg)](https://github.com/ful1e5/Bibata_Extra_Cursor/actions/workflows/build.yml)
 [![CodeFactor](https://www.codefactor.io/repository/github/ful1e5/bibata_extra_cursor/badge)](https://www.codefactor.io/repository/github/ful1e5/bibata_extra_cursor)
 [![Twitter](https://img.shields.io/badge/twitter-ful1e5-blue)](https://twitter.com/ful1e5)
+
+Bibata Extra is a fork of [Bibata](https://github.com/ful1e5/Bibata_Cursor) for supporting a **wide range of colors** inside Bibata.
 
 ## Naming
 
