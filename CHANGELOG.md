@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - support creator with liberapay
 - minimal `README.md`
 - symlink common cursor svg files using `svg/link.py`
+- ci updated for symlink script
 
 ### Changed
 
