@@ -61,39 +61,116 @@ jobs:
         run: cd svg && python link.py && cd ..
         continue-on-error: false
 
-      - name: Generating `Bibata-Modern` Cursor Theme
-        run: make modern
+      - name: Generating `Bibata` Cursor Themes
+        run: make
         continue-on-error: false
 
-      - name: Compressing `Bibata-Modern` Cursor Theme
-        run: tar -cvzf Bibata-Modern.tar.gz themes/*
+      - name: Compressing `Bibata-Modern` Unix Themes
+        run: |
+          tar -cvzf Bibata-Modern-DarkRed.tar.gz themes/Bibata-Modern-DarkRed
+          tar -cvzf Bibata-Modern-DodgerBlue.tar.gz themes/Bibata-Modern-DodgerBlue
+          tar -cvzf Bibata-Modern-Pink.tar.gz themes/Bibata-Modern-Pink
+          tar -cvzf Bibata-Modern-Turquoise.tar.gz themes/Bibata-Modern-Turquoise
 
-      - name: Uploading `Bibata-Modern` Bitmaps artifact
+      - name: Uploading `Bibata-Modern-DarkRed` Unix Theme artifact
         uses: actions/upload-artifact@v2
         with:
-          name: Bibata-Modern-Bitmaps
-          path: bitmaps/*
+          name: Bibata-Modern-DarkRed
+          path: Bibata-Modern-DarkRed.tar.gz
 
-      - name: Uploading `Bibata-Modern` Theme artifact
+      - name: Uploading `Bibata-Modern-DarkRed-Windows` Unix Theme artifact
         uses: actions/upload-artifact@v2
         with:
-          name: Bibata-Modern
-          path: Bibata-Modern.tar.gz
+          name: Bibata-Modern-DarkRed-Windows
+          path: themes/Bibata-Modern-DarkRed-Windows/*
 
-      - name: Generating `Bibata-Original` Cursor Theme
-        run: make original
-
-      - name: Compressing `Bibata-Original` Cursor Theme
-        run: tar -cvzf Bibata-Original.tar.gz themes/*
-
-      - name: Uploading `Bibata-Original` Bitmaps artifact
+      - name: Uploading `Bibata-Modern-DodgerBlue` Unix Theme artifact
         uses: actions/upload-artifact@v2
         with:
-          name: Bibata-Original-Bitmaps
-          path: bitmaps/*
+          name: Bibata-Modern-DodgerBlue
+          path: Bibata-Modern-DodgerBlue.tar.gz
 
-      - name: Uploading `Bibata-Original` Theme artifact
+      - name: Uploading `Bibata-Modern-DodgerBlue-Windows` Unix Theme artifact
         uses: actions/upload-artifact@v2
         with:
-          name: Bibata-Original
-          path: Bibata-Original.tar.gz
+          name: Bibata-Modern-DodgerBlue-Windows
+          path: themes/Bibata-Modern-DodgerBlue-Windows/*
+
+      - name: Uploading `Bibata-Modern-Pink` Unix Theme artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Bibata-Modern-Pink
+          path: Bibata-Modern-Pink.tar.gz
+
+      - name: Uploading `Bibata-Modern-Pink-Windows` Unix Theme artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Bibata-Modern-Pink-Windows
+          path: themes/Bibata-Modern-Pink-Windows/*
+
+      - name: Uploading `Bibata-Modern-Turquoise` Unix Theme artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Bibata-Modern-Turquoise
+          path: Bibata-Modern-Turquoise.tar.gz
+
+      - name: Uploading `Bibata-Modern-Turquoise-Windows` Unix Theme artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Bibata-Modern-Turquoise-Windows
+          path: themes/Bibata-Modern-Turquoise-Windows/*
+
+      - name: Compressing `Bibata-Original` Unix Themes
+        run: |
+          tar -cvzf Bibata-Original-DarkRed.tar.gz themes/Bibata-Original-DarkRed
+          tar -cvzf Bibata-Original-DodgerBlue.tar.gz themes/Bibata-Original-DodgerBlue
+          tar -cvzf Bibata-Original-Pink.tar.gz themes/Bibata-Original-Pink
+          tar -cvzf Bibata-Original-Turquoise.tar.gz themes/Bibata-Original-Turquoise
+
+      - name: Uploading `Bibata-Original-DarkRed` Unix Theme artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Bibata-Original-DarkRed
+          path: Bibata-Original-DarkRed.tar.gz
+
+      - name: Uploading `Bibata-Original-DarkRed-Windows` Unix Theme artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Bibata-Original-DarkRed-Windows
+          path: themes/Bibata-Original-DarkRed-Windows/*
+
+      - name: Uploading `Bibata-Original-DodgerBlue` Unix Theme artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Bibata-Original-DodgerBlue
+          path: Bibata-Original-DodgerBlue.tar.gz
+
+      - name: Uploading `Bibata-Original-DodgerBlue-Windows` Unix Theme artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Bibata-Original-DodgerBlue-Windows
+          path: themes/Bibata-Original-DodgerBlue-Windows/*
+
+      - name: Uploading `Bibata-Original-Pink` Unix Theme artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Bibata-Original-Pink
+          path: Bibata-Original-Pink.tar.gz
+
+      - name: Uploading `Bibata-Original-Pink-Windows` Unix Theme artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Bibata-Original-Pink-Windows
+          path: themes/Bibata-Original-Pink-Windows/*
+
+      - name: Uploading `Bibata-Original-Turquoise` Unix Theme artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Bibata-Original-Turquoise
+          path: Bibata-Original-Turquoise.tar.gz
+
+      - name: Uploading `Bibata-Original-Turquoise-Windows` Unix Theme artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Bibata-Original-Turquoise-Windows
+          path: themes/Bibata-Original-Turquoise-Windows/*
