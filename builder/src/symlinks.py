@@ -177,7 +177,7 @@ def add_missing_xcursor(directory: Union[str, Path]) -> None:
 
     with chdir(directory):
         for item in symlinks:
-            src = item["src"]
-            for link in item.get("links"):
+            src = str(item["src"])
+            for link in item["links"]:
                 print(f"Creating symlink {src} -> {link}")
                 os.symlink(src, link)
