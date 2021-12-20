@@ -78,7 +78,7 @@ jobs:
           name: Bibata-Modern-DarkRed
           path: Bibata-Modern-DarkRed.tar.gz
 
-      - name: Uploading `Bibata-Modern-DarkRed-Windows` Unix Theme artifact
+      - name: Uploading `Bibata-Modern-DarkRed` Windows Theme artifact
         uses: actions/upload-artifact@v2
         with:
           name: Bibata-Modern-DarkRed-Windows
@@ -90,7 +90,7 @@ jobs:
           name: Bibata-Modern-DodgerBlue
           path: Bibata-Modern-DodgerBlue.tar.gz
 
-      - name: Uploading `Bibata-Modern-DodgerBlue-Windows` Unix Theme artifact
+      - name: Uploading `Bibata-Modern-DodgerBlue` Windows Theme artifact
         uses: actions/upload-artifact@v2
         with:
           name: Bibata-Modern-DodgerBlue-Windows
@@ -102,7 +102,7 @@ jobs:
           name: Bibata-Modern-Pink
           path: Bibata-Modern-Pink.tar.gz
 
-      - name: Uploading `Bibata-Modern-Pink-Windows` Unix Theme artifact
+      - name: Uploading `Bibata-Modern-Pink` Windows Theme artifact
         uses: actions/upload-artifact@v2
         with:
           name: Bibata-Modern-Pink-Windows
@@ -114,7 +114,7 @@ jobs:
           name: Bibata-Modern-Turquoise
           path: Bibata-Modern-Turquoise.tar.gz
 
-      - name: Uploading `Bibata-Modern-Turquoise-Windows` Unix Theme artifact
+      - name: Uploading `Bibata-Modern-Turquoise` Windows Theme artifact
         uses: actions/upload-artifact@v2
         with:
           name: Bibata-Modern-Turquoise-Windows
@@ -133,7 +133,7 @@ jobs:
           name: Bibata-Original-DarkRed
           path: Bibata-Original-DarkRed.tar.gz
 
-      - name: Uploading `Bibata-Original-DarkRed-Windows` Unix Theme artifact
+      - name: Uploading `Bibata-Original-DarkRed` Windows Theme artifact
         uses: actions/upload-artifact@v2
         with:
           name: Bibata-Original-DarkRed-Windows
@@ -145,7 +145,7 @@ jobs:
           name: Bibata-Original-DodgerBlue
           path: Bibata-Original-DodgerBlue.tar.gz
 
-      - name: Uploading `Bibata-Original-DodgerBlue-Windows` Unix Theme artifact
+      - name: Uploading `Bibata-Original-DodgerBlue` Windows Theme artifact
         uses: actions/upload-artifact@v2
         with:
           name: Bibata-Original-DodgerBlue-Windows
@@ -157,7 +157,7 @@ jobs:
           name: Bibata-Original-Pink
           path: Bibata-Original-Pink.tar.gz
 
-      - name: Uploading `Bibata-Original-Pink-Windows` Unix Theme artifact
+      - name: Uploading `Bibata-Original-Pink` Windows Theme artifact
         uses: actions/upload-artifact@v2
         with:
           name: Bibata-Original-Pink-Windows
@@ -169,8 +169,14 @@ jobs:
           name: Bibata-Original-Turquoise
           path: Bibata-Original-Turquoise.tar.gz
 
-      - name: Uploading `Bibata-Original-Turquoise-Windows` Unix Theme artifact
+      - name: Uploading `Bibata-Original-Turquoise` Windows Theme artifact
         uses: actions/upload-artifact@v2
         with:
           name: Bibata-Original-Turquoise-Windows
           path: themes/Bibata-Original-Turquoise-Windows/*
+
+      - name: Uploading `Bibata` bitmaps artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: bitmaps
+          path: bitmaps/*
