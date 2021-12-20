@@ -24,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Github Action renamed to `build` from `bibata-ci`
 - prettier `bitmapping` logs
 - `svg/link.py` file added inside pyright config
+- Fix `None` value warning in `builder/symlinks.py`
 
 ## [v1.0.1] - 25 Jun 2021
 
