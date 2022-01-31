@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - distributed artifacts inside `build` GitHub actions
 - Add cursor `top_left_arrow` BreezeX_Cursor#10 BreezeX_Cursor#11
 - ignore files in `build` GitHub Action
+- Uninstall docs ful1e5/apple_cursor#79 ful1e5/apple_cursor#80
 
 ### Changed
 
