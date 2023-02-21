@@ -1,3 +1,7 @@
+# Deprecation
+
+I have made the decision to archive **Bibata Extra**, as the latest version of **Bibata** now supports color customization and Windows cursor support. Originally, I had created this project to meet user demands for color choices. However, with other obligations and time limitations, I need to prioritize my efforts and concentrate on other open-source projects where I can make significant contributions to the community.
+
 # Bibata Extra Cursor
 
 [![build](https://github.com/ful1e5/Bibata_Extra_Cursor/actions/workflows/build.yml/badge.svg)](https://github.com/ful1e5/Bibata_Extra_Cursor/actions/workflows/build.yml)
